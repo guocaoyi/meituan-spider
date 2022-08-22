@@ -1,0 +1,2995 @@
+[
+  { "name": "鞍山", "alias": "as", "url": "https://as.meituan.com/" },
+  { "name": "安庆", "alias": "anqing", "url": "https://anqing.meituan.com/" },
+  { "name": "安阳", "alias": "ay", "url": "https://ay.meituan.com/" },
+  { "name": "安顺", "alias": "anshun", "url": "https://anshun.meituan.com/" },
+  { "name": "安康", "alias": "ankang", "url": "https://ankang.meituan.com/" },
+  { "name": "安丘", "alias": "aq", "url": "https://aq.meituan.com/" },
+  { "name": "安岳", "alias": "anyue", "url": "https://anyue.meituan.com/" },
+  {
+    "name": "安陆市",
+    "alias": "anlushi",
+    "url": "https://anlushi.meituan.com/"
+  },
+  { "name": "阿克苏", "alias": "aks", "url": "https://aks.meituan.com/" },
+  {
+    "name": "安州区",
+    "alias": "anzhouqu",
+    "url": "https://anzhouqu.meituan.com/"
+  },
+  {
+    "name": "阿图什市",
+    "alias": "atushishi",
+    "url": "https://atushishi.meituan.com/"
+  },
+  { "name": "安吉", "alias": "aj", "url": "https://aj.meituan.com/" },
+  { "name": "阿拉善盟", "alias": "als", "url": "https://als.meituan.com/" },
+  {
+    "name": "阿荣旗",
+    "alias": "arongqi",
+    "url": "https://arongqi.meituan.com/"
+  },
+  { "name": "安平", "alias": "anping", "url": "https://anping.meituan.com/" },
+  { "name": "安溪", "alias": "anxi", "url": "https://anxi.meituan.com/" },
+  { "name": "安宁", "alias": "anning", "url": "https://anning.meituan.com/" },
+  { "name": "安化", "alias": "anhua", "url": "https://anhua.meituan.com/" },
+  { "name": "阿拉尔", "alias": "alaer", "url": "https://alaer.meituan.com/" },
+  { "name": "安福", "alias": "anfu", "url": "https://anfu.meituan.com/" },
+  {
+    "name": "阿勒泰市",
+    "alias": "aletaishi",
+    "url": "https://aletaishi.meituan.com/"
+  },
+  {
+    "name": "阿城区",
+    "alias": "achengqu",
+    "url": "https://achengqu.meituan.com/"
+  },
+  { "name": "澳门", "alias": "am", "url": "https://am.meituan.com/" },
+  { "name": "阿勒泰", "alias": "alt", "url": "https://alt.meituan.com/" },
+  { "name": "阿里", "alias": "al", "url": "https://al.meituan.com/" },
+  { "name": "阿坝", "alias": "ab", "url": "https://ab.meituan.com/" },
+  { "name": "北京", "alias": "bj", "url": "https://bj.meituan.com/" },
+  { "name": "包头", "alias": "bt", "url": "https://bt.meituan.com/" },
+  { "name": "保定", "alias": "bd", "url": "https://bd.meituan.com/" },
+  { "name": "蚌埠", "alias": "bengbu", "url": "https://bengbu.meituan.com/" },
+  { "name": "亳州", "alias": "bozhou", "url": "https://bozhou.meituan.com/" },
+  { "name": "滨州", "alias": "bz", "url": "https://bz.meituan.com/" },
+  { "name": "宝鸡", "alias": "baoji", "url": "https://baoji.meituan.com/" },
+  { "name": "白城", "alias": "bc", "url": "https://bc.meituan.com/" },
+  {
+    "name": "霸州",
+    "alias": "bazhouhb",
+    "url": "https://bazhouhb.meituan.com/"
+  },
+  { "name": "巴彦淖尔", "alias": "byne", "url": "https://byne.meituan.com/" },
+  { "name": "北海", "alias": "bh", "url": "https://bh.meituan.com/" },
+  { "name": "百色", "alias": "baise", "url": "https://baise.meituan.com/" },
+  { "name": "巴中", "alias": "bazhong", "url": "https://bazhong.meituan.com/" },
+  { "name": "毕节", "alias": "bijie", "url": "https://bijie.meituan.com/" },
+  { "name": "保山", "alias": "bs", "url": "https://bs.meituan.com/" },
+  { "name": "本溪", "alias": "benxi", "url": "https://benxi.meituan.com/" },
+  { "name": "白银", "alias": "by", "url": "https://by.meituan.com/" },
+  { "name": "白山", "alias": "baishan", "url": "https://baishan.meituan.com/" },
+  { "name": "璧山", "alias": "bishan", "url": "https://bishan.meituan.com/" },
+  {
+    "name": "拜泉县",
+    "alias": "baiquanxian",
+    "url": "https://baiquanxian.meituan.com/"
+  },
+  {
+    "name": "拜城县",
+    "alias": "baichengxian",
+    "url": "https://baichengxian.meituan.com/"
+  },
+  { "name": "宝应", "alias": "baoying", "url": "https://baoying.meituan.com/" },
+  { "name": "北流", "alias": "beiliu", "url": "https://beiliu.meituan.com/" },
+  { "name": "博爱", "alias": "boai", "url": "https://boai.meituan.com/" },
+  {
+    "name": "巴楚县",
+    "alias": "bachuxian",
+    "url": "https://bachuxian.meituan.com/"
+  },
+  { "name": "宝丰", "alias": "baofeng", "url": "https://baofeng.meituan.com/" },
+  { "name": "博兴", "alias": "boxing", "url": "https://boxing.meituan.com/" },
+  { "name": "泌阳", "alias": "biyang", "url": "https://biyang.meituan.com/" },
+  {
+    "name": "彬州市",
+    "alias": "binxian",
+    "url": "https://binxian.meituan.com/"
+  },
+  {
+    "name": "巴彦县",
+    "alias": "bayanxian",
+    "url": "https://bayanxian.meituan.com/"
+  },
+  { "name": "博山", "alias": "boshan", "url": "https://boshan.meituan.com/" },
+  { "name": "宾阳", "alias": "binyang", "url": "https://binyang.meituan.com/" },
+  { "name": "泊头市", "alias": "botou", "url": "https://botou.meituan.com/" },
+  {
+    "name": "博罗县",
+    "alias": "boluoxian",
+    "url": "https://boluoxian.meituan.com/"
+  },
+  {
+    "name": "博白县",
+    "alias": "bobaixian",
+    "url": "https://bobaixian.meituan.com/"
+  },
+  {
+    "name": "北镇市",
+    "alias": "beizhenshi",
+    "url": "https://beizhenshi.meituan.com/"
+  },
+  {
+    "name": "北安市",
+    "alias": "beianshi",
+    "url": "https://beianshi.meituan.com/"
+  },
+  { "name": "滨海", "alias": "binhai", "url": "https://binhai.meituan.com/" },
+  { "name": "北碚", "alias": "beipei", "url": "https://beipei.meituan.com/" },
+  { "name": "博尔塔拉", "alias": "betl", "url": "https://betl.meituan.com/" },
+  { "name": "巴州", "alias": "baz", "url": "https://baz.meituan.com/" },
+  { "name": "重庆", "alias": "cq", "url": "https://cq.meituan.com/" },
+  { "name": "成都", "alias": "cd", "url": "https://cd.meituan.com/" },
+  { "name": "常州", "alias": "cz", "url": "https://cz.meituan.com/" },
+  { "name": "长春", "alias": "cc", "url": "https://cc.meituan.com/" },
+  { "name": "长沙", "alias": "chs", "url": "https://chs.meituan.com/" },
+  {
+    "name": "沧州",
+    "alias": "cangzhou",
+    "url": "https://cangzhou.meituan.com/"
+  },
+  {
+    "name": "长治",
+    "alias": "changzhi",
+    "url": "https://changzhi.meituan.com/"
+  },
+  { "name": "慈溪", "alias": "cixi", "url": "https://cixi.meituan.com/" },
+  { "name": "滁州", "alias": "chuzhou", "url": "https://chuzhou.meituan.com/" },
+  { "name": "常德", "alias": "changde", "url": "https://changde.meituan.com/" },
+  {
+    "name": "郴州",
+    "alias": "chenzhou",
+    "url": "https://chenzhou.meituan.com/"
+  },
+  { "name": "承德", "alias": "chengde", "url": "https://chengde.meituan.com/" },
+  {
+    "name": "常熟",
+    "alias": "changshu",
+    "url": "https://changshu.meituan.com/"
+  },
+  { "name": "赤峰", "alias": "chifeng", "url": "https://chifeng.meituan.com/" },
+  {
+    "name": "昌江黎族自治县",
+    "alias": "changjiangxian",
+    "url": "https://changjiangxian.meituan.com/"
+  },
+  {
+    "name": "潮州",
+    "alias": "chaozhou",
+    "url": "https://chaozhou.meituan.com/"
+  },
+  { "name": "巢湖", "alias": "ch", "url": "https://ch.meituan.com/" },
+  { "name": "长葛", "alias": "cg", "url": "https://cg.meituan.com/" },
+  { "name": "苍南", "alias": "cangnan", "url": "https://cangnan.meituan.com/" },
+  { "name": "昌邑", "alias": "changyi", "url": "https://changyi.meituan.com/" },
+  { "name": "从化", "alias": "conghua", "url": "https://conghua.meituan.com/" },
+  { "name": "池州", "alias": "chizhou", "url": "https://chizhou.meituan.com/" },
+  { "name": "朝阳", "alias": "cy", "url": "https://cy.meituan.com/" },
+  { "name": "长兴", "alias": "chx", "url": "https://chx.meituan.com/" },
+  { "name": "城固", "alias": "chenggu", "url": "https://chenggu.meituan.com/" },
+  { "name": "长乐", "alias": "changle", "url": "https://changle.meituan.com/" },
+  { "name": "澄迈县", "alias": "cmx", "url": "https://cmx.meituan.com/" },
+  { "name": "楚雄", "alias": "cx", "url": "https://cx.meituan.com/" },
+  {
+    "name": "崇州",
+    "alias": "chongzhou",
+    "url": "https://chongzhou.meituan.com/"
+  },
+  {
+    "name": "崇左",
+    "alias": "chongzuo",
+    "url": "https://chongzuo.meituan.com/"
+  },
+  { "name": "淳安", "alias": "ca", "url": "https://ca.meituan.com/" },
+  {
+    "name": "承德县",
+    "alias": "chengdexian",
+    "url": "https://chengdexian.meituan.com/"
+  },
+  {
+    "name": "昌乐",
+    "alias": "changlecl",
+    "url": "https://changlecl.meituan.com/"
+  },
+  {
+    "name": "曹妃甸",
+    "alias": "caofeidian",
+    "url": "https://caofeidian.meituan.com/"
+  },
+  { "name": "磁县", "alias": "cixian", "url": "https://cixian.meituan.com/" },
+  {
+    "name": "长垣市",
+    "alias": "changyuan",
+    "url": "https://changyuan.meituan.com/"
+  },
+  { "name": "成安", "alias": "chengan", "url": "https://chengan.meituan.com/" },
+  { "name": "昌黎", "alias": "changli", "url": "https://changli.meituan.com/" },
+  { "name": "岑溪", "alias": "cenxi", "url": "https://cenxi.meituan.com/" },
+  {
+    "name": "茌平区",
+    "alias": "chiping",
+    "url": "https://chiping.meituan.com/"
+  },
+  { "name": "曹县", "alias": "caoxian", "url": "https://caoxian.meituan.com/" },
+  { "name": "昌吉", "alias": "changji", "url": "https://changji.meituan.com/" },
+  {
+    "name": "长汀",
+    "alias": "changting",
+    "url": "https://changting.meituan.com/"
+  },
+  { "name": "潮安", "alias": "chaoan", "url": "https://chaoan.meituan.com/" },
+  {
+    "name": "长寿",
+    "alias": "changshou",
+    "url": "https://changshou.meituan.com/"
+  },
+  {
+    "name": "常山",
+    "alias": "changshan",
+    "url": "https://changshan.meituan.com/"
+  },
+  { "name": "赤水", "alias": "chishui", "url": "https://chishui.meituan.com/" },
+  { "name": "慈利", "alias": "cili", "url": "https://cili.meituan.com/" },
+  {
+    "name": "常宁市",
+    "alias": "changningshi",
+    "url": "https://changningshi.meituan.com/"
+  },
+  {
+    "name": "茶陵",
+    "alias": "chalingxian",
+    "url": "https://chalingxian.meituan.com/"
+  },
+  {
+    "name": "长丰县",
+    "alias": "changfengxian",
+    "url": "https://changfengxian.meituan.com/"
+  },
+  {
+    "name": "苍溪县",
+    "alias": "cangxixian",
+    "url": "https://cangxixian.meituan.com/"
+  },
+  {
+    "name": "长清区",
+    "alias": "changqingqu",
+    "url": "https://changqingqu.meituan.com/"
+  },
+  {
+    "name": "崇明区",
+    "alias": "chongmingqu",
+    "url": "https://chongmingqu.meituan.com/"
+  },
+  {
+    "name": "成武县",
+    "alias": "chengwuxian",
+    "url": "https://chengwuxian.meituan.com/"
+  },
+  {
+    "name": "澄江市",
+    "alias": "chengjiangxian",
+    "url": "https://chengjiangxian.meituan.com/"
+  },
+  { "name": "赤壁", "alias": "cb", "url": "https://cb.meituan.com/" },
+  { "name": "昌都", "alias": "changdu", "url": "https://changdu.meituan.com/" },
+  { "name": "大连", "alias": "dl", "url": "https://dl.meituan.com/" },
+  { "name": "东莞", "alias": "dg", "url": "https://dg.meituan.com/" },
+  { "name": "大同", "alias": "dt", "url": "https://dt.meituan.com/" },
+  { "name": "大庆", "alias": "dq", "url": "https://dq.meituan.com/" },
+  { "name": "丹东", "alias": "dandong", "url": "https://dandong.meituan.com/" },
+  { "name": "东营", "alias": "dy", "url": "https://dy.meituan.com/" },
+  { "name": "德州", "alias": "dz", "url": "https://dz.meituan.com/" },
+  { "name": "德阳", "alias": "deyang", "url": "https://deyang.meituan.com/" },
+  { "name": "达州", "alias": "dazhou", "url": "https://dazhou.meituan.com/" },
+  {
+    "name": "邓州",
+    "alias": "dengzhou",
+    "url": "https://dengzhou.meituan.com/"
+  },
+  { "name": "大理", "alias": "dali", "url": "https://dali.meituan.com/" },
+  { "name": "大石桥", "alias": "dsq", "url": "https://dsq.meituan.com/" },
+  { "name": "都江堰", "alias": "djy", "url": "https://djy.meituan.com/" },
+  { "name": "定西", "alias": "dx", "url": "https://dx.meituan.com/" },
+  { "name": "丹阳", "alias": "danyang", "url": "https://danyang.meituan.com/" },
+  { "name": "儋州", "alias": "danzhou", "url": "https://danzhou.meituan.com/" },
+  {
+    "name": "东阳",
+    "alias": "dongyang",
+    "url": "https://dongyang.meituan.com/"
+  },
+  {
+    "name": "登封",
+    "alias": "dengfeng",
+    "url": "https://dengfeng.meituan.com/"
+  },
+  { "name": "大丰", "alias": "df", "url": "https://df.meituan.com/" },
+  { "name": "东台", "alias": "dongtai", "url": "https://dongtai.meituan.com/" },
+  { "name": "大竹", "alias": "dazhu", "url": "https://dazhu.meituan.com/" },
+  {
+    "name": "当阳",
+    "alias": "dangyang",
+    "url": "https://dangyang.meituan.com/"
+  },
+  { "name": "德清", "alias": "deqing", "url": "https://deqing.meituan.com/" },
+  {
+    "name": "东坑镇",
+    "alias": "dongkengzhen",
+    "url": "https://dongkengzhen.meituan.com/"
+  },
+  {
+    "name": "德惠市",
+    "alias": "dehuishi",
+    "url": "https://dehuishi.meituan.com/"
+  },
+  { "name": "大足区", "alias": "dazuqu", "url": "https://dazuqu.meituan.com/" },
+  { "name": "大冶", "alias": "daye", "url": "https://daye.meituan.com/" },
+  {
+    "name": "东兴",
+    "alias": "dongxing",
+    "url": "https://dongxing.meituan.com/"
+  },
+  { "name": "调兵山", "alias": "dbs", "url": "https://dbs.meituan.com/" },
+  { "name": "灯塔", "alias": "dengta", "url": "https://dengta.meituan.com/" },
+  {
+    "name": "大悟县",
+    "alias": "dawuxia",
+    "url": "https://dawuxia.meituan.com/"
+  },
+  {
+    "name": "大通",
+    "alias": "datongshi",
+    "url": "https://datongshi.meituan.com/"
+  },
+  {
+    "name": "东方",
+    "alias": "dongfang",
+    "url": "https://dongfang.meituan.com/"
+  },
+  {
+    "name": "东平",
+    "alias": "dongping",
+    "url": "https://dongping.meituan.com/"
+  },
+  { "name": "电白", "alias": "dianbai", "url": "https://dianbai.meituan.com/" },
+  { "name": "东海", "alias": "donghai", "url": "https://donghai.meituan.com/" },
+  {
+    "name": "定州",
+    "alias": "dingzhou",
+    "url": "https://dingzhou.meituan.com/"
+  },
+  {
+    "name": "郸城",
+    "alias": "dancheng",
+    "url": "https://dancheng.meituan.com/"
+  },
+  {
+    "name": "大荔",
+    "alias": "dalixian",
+    "url": "https://dalixian.meituan.com/"
+  },
+  {
+    "name": "达拉特旗",
+    "alias": "dalateqi",
+    "url": "https://dalateqi.meituan.com/"
+  },
+  {
+    "name": "东港",
+    "alias": "donggang",
+    "url": "https://donggang.meituan.com/"
+  },
+  { "name": "大洼", "alias": "dawa", "url": "https://dawa.meituan.com/" },
+  { "name": "大邑", "alias": "dayi", "url": "https://dayi.meituan.com/" },
+  {
+    "name": "砀山",
+    "alias": "dangshan",
+    "url": "https://dangshan.meituan.com/"
+  },
+  { "name": "敦化", "alias": "dunhua", "url": "https://dunhua.meituan.com/" },
+  {
+    "name": "东光",
+    "alias": "dongguang",
+    "url": "https://dongguang.meituan.com/"
+  },
+  { "name": "道县", "alias": "daoxian", "url": "https://daoxian.meituan.com/" },
+  {
+    "name": "大安市",
+    "alias": "daanshi",
+    "url": "https://daanshi.meituan.com/"
+  },
+  {
+    "name": "定安县",
+    "alias": "dinganxian",
+    "url": "https://dinganxian.meituan.com/"
+  },
+  {
+    "name": "垫江",
+    "alias": "dianjiang",
+    "url": "https://dianjiang.meituan.com/"
+  },
+  {
+    "name": "东明县",
+    "alias": "dongmingxian",
+    "url": "https://dongmingxian.meituan.com/"
+  },
+  {
+    "name": "定陶区",
+    "alias": "dingtaoqu",
+    "url": "https://dingtaoqu.meituan.com/"
+  },
+  {
+    "name": "定边县",
+    "alias": "dingbianxian",
+    "url": "https://dingbianxian.meituan.com/"
+  },
+  {
+    "name": "大厂回族自治县",
+    "alias": "dachangzizhixian",
+    "url": "https://dachangzizhixian.meituan.com/"
+  },
+  {
+    "name": "定远县",
+    "alias": "dingyuanxian",
+    "url": "https://dingyuanxian.meituan.com/"
+  },
+  {
+    "name": "东阿县",
+    "alias": "dongexian",
+    "url": "https://dongexian.meituan.com/"
+  },
+  { "name": "大兴安岭", "alias": "dxal", "url": "https://dxal.meituan.com/" },
+  { "name": "德宏", "alias": "dh", "url": "https://dh.meituan.com/" },
+  { "name": "迪庆", "alias": "diqing", "url": "https://diqing.meituan.com/" },
+  {
+    "name": "敦煌",
+    "alias": "dunhuang",
+    "url": "https://dunhuang.meituan.com/"
+  },
+  { "name": "鄂尔多斯", "alias": "erds", "url": "https://erds.meituan.com/" },
+  { "name": "鄂州", "alias": "ez", "url": "https://ez.meituan.com/" },
+  { "name": "恩施", "alias": "es", "url": "https://es.meituan.com/" },
+  { "name": "恩平", "alias": "enping", "url": "https://enping.meituan.com/" },
+  { "name": "峨眉山", "alias": "ems", "url": "https://ems.meituan.com/" },
+  {
+    "name": "额敏县",
+    "alias": "eminxian",
+    "url": "https://eminxian.meituan.com/"
+  },
+  { "name": "额尔古纳", "alias": "eegn", "url": "https://eegn.meituan.com/" },
+  { "name": "福州", "alias": "fz", "url": "https://fz.meituan.com/" },
+  { "name": "佛山", "alias": "fs", "url": "https://fs.meituan.com/" },
+  { "name": "阜阳", "alias": "fy", "url": "https://fy.meituan.com/" },
+  { "name": "抚州", "alias": "fuz", "url": "https://fuz.meituan.com/" },
+  { "name": "抚顺", "alias": "fushun", "url": "https://fushun.meituan.com/" },
+  { "name": "阜新", "alias": "fx", "url": "https://fx.meituan.com/" },
+  { "name": "涪陵", "alias": "fl", "url": "https://fl.meituan.com/" },
+  { "name": "福清", "alias": "fuqing", "url": "https://fuqing.meituan.com/" },
+  { "name": "奉化", "alias": "fenghua", "url": "https://fenghua.meituan.com/" },
+  { "name": "肥城", "alias": "fc", "url": "https://fc.meituan.com/" },
+  {
+    "name": "富阳",
+    "alias": "fuyangfy",
+    "url": "https://fuyangfy.meituan.com/"
+  },
+  { "name": "阜宁", "alias": "fn", "url": "https://fn.meituan.com/" },
+  { "name": "防城港", "alias": "fcg", "url": "https://fcg.meituan.com/" },
+  {
+    "name": "富民",
+    "alias": "fuminxian",
+    "url": "https://fuminxian.meituan.com/"
+  },
+  {
+    "name": "凤城",
+    "alias": "fengcheng",
+    "url": "https://fengcheng.meituan.com/"
+  },
+  { "name": "汾阳", "alias": "fenyang", "url": "https://fenyang.meituan.com/" },
+  { "name": "阜康", "alias": "fukang", "url": "https://fukang.meituan.com/" },
+  { "name": "丰城", "alias": "fch", "url": "https://fch.meituan.com/" },
+  { "name": "范县", "alias": "fanxian", "url": "https://fanxian.meituan.com/" },
+  {
+    "name": "繁昌区",
+    "alias": "fanchang",
+    "url": "https://fanchang.meituan.com/"
+  },
+  {
+    "name": "肥乡区",
+    "alias": "feixiang",
+    "url": "https://feixiang.meituan.com/"
+  },
+  { "name": "封丘", "alias": "fengqiu", "url": "https://fengqiu.meituan.com/" },
+  { "name": "扶风", "alias": "fufeng", "url": "https://fufeng.meituan.com/" },
+  { "name": "凤凰", "alias": "fh", "url": "https://fh.meituan.com/" },
+  { "name": "抚松", "alias": "fusong", "url": "https://fusong.meituan.com/" },
+  {
+    "name": "富顺",
+    "alias": "fushunxian",
+    "url": "https://fushunxian.meituan.com/"
+  },
+  { "name": "费县", "alias": "feixian", "url": "https://feixian.meituan.com/" },
+  { "name": "佛冈", "alias": "fogang", "url": "https://fogang.meituan.com/" },
+  {
+    "name": "丰宁",
+    "alias": "fengning",
+    "url": "https://fengning.meituan.com/"
+  },
+  { "name": "扶沟", "alias": "fugou", "url": "https://fugou.meituan.com/" },
+  { "name": "凤台", "alias": "fengtai", "url": "https://fengtai.meituan.com/" },
+  { "name": "奉新", "alias": "fengxin", "url": "https://fengxin.meituan.com/" },
+  {
+    "name": "方城",
+    "alias": "fangcheng",
+    "url": "https://fangcheng.meituan.com/"
+  },
+  {
+    "name": "富源县",
+    "alias": "fuyuanxian",
+    "url": "https://fuyuanxian.meituan.com/"
+  },
+  { "name": "分宜", "alias": "fenyi", "url": "https://fenyi.meituan.com/" },
+  {
+    "name": "扶绥县",
+    "alias": "fusuixian",
+    "url": "https://fusuixian.meituan.com/"
+  },
+  {
+    "name": "肥西县",
+    "alias": "feixixian",
+    "url": "https://feixixian.meituan.com/"
+  },
+  {
+    "name": "繁峙县",
+    "alias": "fanzhixian",
+    "url": "https://fanzhixian.meituan.com/"
+  },
+  {
+    "name": "凤翔区",
+    "alias": "fengxiangxian",
+    "url": "https://fengxiangxian.meituan.com/"
+  },
+  { "name": "福安", "alias": "fuan", "url": "https://fuan.meituan.com/" },
+  {
+    "name": "福鼎市",
+    "alias": "fudingshi",
+    "url": "https://fudingshi.meituan.com/"
+  },
+  {
+    "name": "府谷县",
+    "alias": "fuguxian",
+    "url": "https://fuguxian.meituan.com/"
+  },
+  { "name": "奉节", "alias": "fengjie", "url": "https://fengjie.meituan.com/" },
+  { "name": "丰都", "alias": "fengdu", "url": "https://fengdu.meituan.com/" },
+  {
+    "name": "肥东县",
+    "alias": "feidongxian",
+    "url": "https://feidongxian.meituan.com/"
+  },
+  {
+    "name": "丰县",
+    "alias": "fengxian",
+    "url": "https://fengxian.meituan.com/"
+  },
+  { "name": "广州", "alias": "gz", "url": "https://gz.meituan.com/" },
+  { "name": "贵阳", "alias": "gy", "url": "https://gy.meituan.com/" },
+  { "name": "赣州", "alias": "ganzhou", "url": "https://ganzhou.meituan.com/" },
+  { "name": "贵港", "alias": "gg", "url": "https://gg.meituan.com/" },
+  { "name": "桂林", "alias": "gl", "url": "https://gl.meituan.com/" },
+  { "name": "广安", "alias": "ga", "url": "https://ga.meituan.com/" },
+  { "name": "高州", "alias": "gaozhou", "url": "https://gaozhou.meituan.com/" },
+  {
+    "name": "巩义",
+    "alias": "gongyishi",
+    "url": "https://gongyishi.meituan.com/"
+  },
+  { "name": "高密", "alias": "gm", "url": "https://gm.meituan.com/" },
+  { "name": "高碑店", "alias": "gbd", "url": "https://gbd.meituan.com/" },
+  {
+    "name": "广元",
+    "alias": "guangyuan",
+    "url": "https://guangyuan.meituan.com/"
+  },
+  { "name": "高邮", "alias": "gaoyou", "url": "https://gaoyou.meituan.com/" },
+  { "name": "广饶", "alias": "gr", "url": "https://gr.meituan.com/" },
+  {
+    "name": "固安县",
+    "alias": "guanxian",
+    "url": "https://guanxian.meituan.com/"
+  },
+  { "name": "桂平", "alias": "gp", "url": "https://gp.meituan.com/" },
+  { "name": "公主岭", "alias": "gzl", "url": "https://gzl.meituan.com/" },
+  {
+    "name": "光山县",
+    "alias": "guangshanxian",
+    "url": "https://guangshanxian.meituan.com/"
+  },
+  { "name": "广汉", "alias": "gh", "url": "https://gh.meituan.com/" },
+  { "name": "藁城", "alias": "gc", "url": "https://gc.meituan.com/" },
+  { "name": "高平", "alias": "gaoping", "url": "https://gaoping.meituan.com/" },
+  { "name": "光泽", "alias": "guangze", "url": "https://guangze.meituan.com/" },
+  { "name": "固原", "alias": "guyuan", "url": "https://guyuan.meituan.com/" },
+  {
+    "name": "高淳区",
+    "alias": "gaochunqu",
+    "url": "https://gaochunqu.meituan.com/"
+  },
+  { "name": "盖州", "alias": "gaizhou", "url": "https://gaizhou.meituan.com/" },
+  { "name": "古交", "alias": "gujiao", "url": "https://gujiao.meituan.com/" },
+  { "name": "格尔木", "alias": "geermu", "url": "https://geermu.meituan.com/" },
+  {
+    "name": "固始县",
+    "alias": "gushixian",
+    "url": "https://gushixian.meituan.com/"
+  },
+  { "name": "灌云", "alias": "guanyun", "url": "https://guanyun.meituan.com/" },
+  { "name": "灌南", "alias": "guannan", "url": "https://guannan.meituan.com/" },
+  { "name": "赣榆", "alias": "ganyu", "url": "https://ganyu.meituan.com/" },
+  { "name": "高安", "alias": "gaoan", "url": "https://gaoan.meituan.com/" },
+  {
+    "name": "广德市",
+    "alias": "guangde",
+    "url": "https://guangde.meituan.com/"
+  },
+  {
+    "name": "共青城",
+    "alias": "gongqingcheng",
+    "url": "https://gongqingcheng.meituan.com/"
+  },
+  { "name": "高阳", "alias": "gaoyang", "url": "https://gaoyang.meituan.com/" },
+  { "name": "高陵", "alias": "gaoling", "url": "https://gaoling.meituan.com/" },
+  { "name": "公安", "alias": "gongan", "url": "https://gongan.meituan.com/" },
+  { "name": "个旧", "alias": "gj", "url": "https://gj.meituan.com/" },
+  {
+    "name": "鼓浪屿",
+    "alias": "gulangyu",
+    "url": "https://gulangyu.meituan.com/"
+  },
+  {
+    "name": "高雄",
+    "alias": "gaoxiong",
+    "url": "https://gaoxiong.meituan.com/"
+  },
+  { "name": "果洛", "alias": "guoluo", "url": "https://guoluo.meituan.com/" },
+  { "name": "甘南", "alias": "gn", "url": "https://gn.meituan.com/" },
+  { "name": "甘孜", "alias": "ganzi", "url": "https://ganzi.meituan.com/" },
+  { "name": "杭州", "alias": "hz", "url": "https://hz.meituan.com/" },
+  { "name": "合肥", "alias": "hf", "url": "https://hf.meituan.com/" },
+  { "name": "哈尔滨", "alias": "hrb", "url": "https://hrb.meituan.com/" },
+  { "name": "湖州", "alias": "huzhou", "url": "https://huzhou.meituan.com/" },
+  { "name": "呼和浩特", "alias": "hu", "url": "https://hu.meituan.com/" },
+  { "name": "淮安", "alias": "ha", "url": "https://ha.meituan.com/" },
+  { "name": "海口", "alias": "haikou", "url": "https://haikou.meituan.com/" },
+  { "name": "邯郸", "alias": "hd", "url": "https://hd.meituan.com/" },
+  { "name": "衡阳", "alias": "hy", "url": "https://hy.meituan.com/" },
+  { "name": "惠州", "alias": "huizhou", "url": "https://huizhou.meituan.com/" },
+  { "name": "衡水", "alias": "hs", "url": "https://hs.meituan.com/" },
+  { "name": "黄石", "alias": "hshi", "url": "https://hshi.meituan.com/" },
+  { "name": "黄冈", "alias": "hg", "url": "https://hg.meituan.com/" },
+  { "name": "葫芦岛", "alias": "hld", "url": "https://hld.meituan.com/" },
+  { "name": "怀化", "alias": "hh", "url": "https://hh.meituan.com/" },
+  { "name": "淮南", "alias": "hn", "url": "https://hn.meituan.com/" },
+  { "name": "菏泽", "alias": "heze", "url": "https://heze.meituan.com/" },
+  { "name": "鹤岗", "alias": "hegang", "url": "https://hegang.meituan.com/" },
+  { "name": "鹤壁", "alias": "hb", "url": "https://hb.meituan.com/" },
+  { "name": "黑河", "alias": "heihe", "url": "https://heihe.meituan.com/" },
+  {
+    "name": "横店",
+    "alias": "hengdian",
+    "url": "https://hengdian.meituan.com/"
+  },
+  { "name": "海安", "alias": "haian", "url": "https://haian.meituan.com/" },
+  { "name": "呼伦贝尔", "alias": "hlbe", "url": "https://hlbe.meituan.com/" },
+  { "name": "淮北", "alias": "huaibei", "url": "https://huaibei.meituan.com/" },
+  { "name": "河源", "alias": "heyuan", "url": "https://heyuan.meituan.com/" },
+  { "name": "贺州", "alias": "hezhou", "url": "https://hezhou.meituan.com/" },
+  { "name": "河池", "alias": "hc", "url": "https://hc.meituan.com/" },
+  { "name": "红河", "alias": "honghe", "url": "https://honghe.meituan.com/" },
+  {
+    "name": "汉中",
+    "alias": "hanzhong",
+    "url": "https://hanzhong.meituan.com/"
+  },
+  { "name": "合川", "alias": "hechuan", "url": "https://hechuan.meituan.com/" },
+  { "name": "化州", "alias": "huazhou", "url": "https://huazhou.meituan.com/" },
+  {
+    "name": "黄山",
+    "alias": "huangshan",
+    "url": "https://huangshan.meituan.com/"
+  },
+  { "name": "海阳", "alias": "haiyang", "url": "https://haiyang.meituan.com/" },
+  { "name": "海门区", "alias": "hm", "url": "https://hm.meituan.com/" },
+  {
+    "name": "海城",
+    "alias": "haicheng",
+    "url": "https://haicheng.meituan.com/"
+  },
+  { "name": "惠阳", "alias": "huiyang", "url": "https://huiyang.meituan.com/" },
+  { "name": "海宁", "alias": "haining", "url": "https://haining.meituan.com/" },
+  { "name": "惠东", "alias": "huidong", "url": "https://huidong.meituan.com/" },
+  { "name": "河口", "alias": "hekou", "url": "https://hekou.meituan.com/" },
+  { "name": "华容", "alias": "huarong", "url": "https://huarong.meituan.com/" },
+  { "name": "哈密", "alias": "hami", "url": "https://hami.meituan.com/" },
+  { "name": "华阴", "alias": "huayin", "url": "https://huayin.meituan.com/" },
+  { "name": "侯马", "alias": "houma", "url": "https://houma.meituan.com/" },
+  { "name": "河津", "alias": "hj", "url": "https://hj.meituan.com/" },
+  { "name": "霍州", "alias": "huozhou", "url": "https://huozhou.meituan.com/" },
+  {
+    "name": "黄骅",
+    "alias": "huanghua",
+    "url": "https://huanghua.meituan.com/"
+  },
+  { "name": "海林", "alias": "hl", "url": "https://hl.meituan.com/" },
+  { "name": "海盐", "alias": "haiyan", "url": "https://haiyan.meituan.com/" },
+  { "name": "海东", "alias": "haidong", "url": "https://haidong.meituan.com/" },
+  {
+    "name": "淮阳区",
+    "alias": "huaiyang",
+    "url": "https://huaiyang.meituan.com/"
+  },
+  { "name": "汉阴", "alias": "hanyin", "url": "https://hanyin.meituan.com/" },
+  { "name": "含山", "alias": "hanshan", "url": "https://hanshan.meituan.com/" },
+  { "name": "和县", "alias": "hexian", "url": "https://hexian.meituan.com/" },
+  { "name": "户县", "alias": "huxian", "url": "https://huxian.meituan.com/" },
+  { "name": "辉县", "alias": "huixian", "url": "https://huixian.meituan.com/" },
+  {
+    "name": "怀仁市",
+    "alias": "huairen",
+    "url": "https://huairen.meituan.com/"
+  },
+  { "name": "滑县", "alias": "huaxian", "url": "https://huaxian.meituan.com/" },
+  { "name": "惠安", "alias": "huian", "url": "https://huian.meituan.com/" },
+  {
+    "name": "韩城",
+    "alias": "hancheng",
+    "url": "https://hancheng.meituan.com/"
+  },
+  { "name": "鹤山", "alias": "heshan", "url": "https://heshan.meituan.com/" },
+  {
+    "name": "华亭市",
+    "alias": "huating",
+    "url": "https://huating.meituan.com/"
+  },
+  {
+    "name": "洪洞",
+    "alias": "hongtong",
+    "url": "https://hongtong.meituan.com/"
+  },
+  { "name": "桦甸", "alias": "huadian", "url": "https://huadian.meituan.com/" },
+  { "name": "辉南", "alias": "huinan", "url": "https://huinan.meituan.com/" },
+  { "name": "洪湖", "alias": "honghu", "url": "https://honghu.meituan.com/" },
+  { "name": "海沧", "alias": "haicang", "url": "https://haicang.meituan.com/" },
+  { "name": "霍邱", "alias": "huoqiu", "url": "https://huoqiu.meituan.com/" },
+  { "name": "珲春", "alias": "hunchun", "url": "https://hunchun.meituan.com/" },
+  {
+    "name": "怀宁",
+    "alias": "huaining",
+    "url": "https://huaining.meituan.com/"
+  },
+  {
+    "name": "怀远县",
+    "alias": "huaiyuanxian",
+    "url": "https://huaiyuanxian.meituan.com/"
+  },
+  {
+    "name": "会泽县",
+    "alias": "huizexian",
+    "url": "https://huizexian.meituan.com/"
+  },
+  {
+    "name": "河间市",
+    "alias": "hejianshi",
+    "url": "https://hejianshi.meituan.com/"
+  },
+  {
+    "name": "合浦县",
+    "alias": "hepuxian",
+    "url": "https://hepuxian.meituan.com/"
+  },
+  {
+    "name": "衡阳县",
+    "alias": "hengyangxian",
+    "url": "https://hengyangxian.meituan.com/"
+  },
+  {
+    "name": "衡山县",
+    "alias": "hengshanxian",
+    "url": "https://hengshanxian.meituan.com/"
+  },
+  {
+    "name": "衡东县",
+    "alias": "hengdongxian",
+    "url": "https://hengdongxian.meituan.com/"
+  },
+  {
+    "name": "潢川县",
+    "alias": "huangchuanxian",
+    "url": "https://huangchuanxian.meituan.com/"
+  },
+  {
+    "name": "贺兰县",
+    "alias": "helanxian",
+    "url": "https://helanxian.meituan.com/"
+  },
+  {
+    "name": "汉南区",
+    "alias": "hannanqu",
+    "url": "https://hannanqu.meituan.com/"
+  },
+  {
+    "name": "海伦市",
+    "alias": "hailunshi",
+    "url": "https://hailunshi.meituan.com/"
+  },
+  {
+    "name": "合江县",
+    "alias": "hejiangxian",
+    "url": "https://hejiangxian.meituan.com/"
+  },
+  {
+    "name": "环县",
+    "alias": "huanxian",
+    "url": "https://huanxian.meituan.com/"
+  },
+  {
+    "name": "黄陵县",
+    "alias": "huanglingxian",
+    "url": "https://huanglingxian.meituan.com/"
+  },
+  {
+    "name": "桦川县",
+    "alias": "huachuanxian",
+    "url": "https://huachuanxian.meituan.com/"
+  },
+  {
+    "name": "横山区",
+    "alias": "hengshanqu",
+    "url": "https://hengshanqu.meituan.com/"
+  },
+  { "name": "胡杨河市", "alias": "hyhs", "url": "https://hyhs.meituan.com/" },
+  { "name": "和田", "alias": "ht", "url": "https://ht.meituan.com/" },
+  { "name": "花莲", "alias": "hualian", "url": "https://hualian.meituan.com/" },
+  {
+    "name": "恒春",
+    "alias": "hengchun",
+    "url": "https://hengchun.meituan.com/"
+  },
+  {
+    "name": "黄南",
+    "alias": "huangnan",
+    "url": "https://huangnan.meituan.com/"
+  },
+  { "name": "海南州", "alias": "hnz", "url": "https://hnz.meituan.com/" },
+  { "name": "海西", "alias": "hx", "url": "https://hx.meituan.com/" },
+  { "name": "海北", "alias": "haibei", "url": "https://haibei.meituan.com/" },
+  { "name": "香港", "alias": "hk", "url": "https://hk.meituan.com/" },
+  { "name": "济南", "alias": "jn", "url": "https://jn.meituan.com/" },
+  { "name": "吉林", "alias": "jl", "url": "https://jl.meituan.com/" },
+  {
+    "name": "江阴",
+    "alias": "jiangyin",
+    "url": "https://jiangyin.meituan.com/"
+  },
+  { "name": "嘉兴", "alias": "jx", "url": "https://jx.meituan.com/" },
+  { "name": "金华", "alias": "jh", "url": "https://jh.meituan.com/" },
+  { "name": "江门", "alias": "jm", "url": "https://jm.meituan.com/" },
+  { "name": "济宁", "alias": "jining", "url": "https://jining.meituan.com/" },
+  {
+    "name": "荆州",
+    "alias": "jingzhou",
+    "url": "https://jingzhou.meituan.com/"
+  },
+  { "name": "焦作", "alias": "jiaozuo", "url": "https://jiaozuo.meituan.com/" },
+  {
+    "name": "晋江市",
+    "alias": "jinjiang",
+    "url": "https://jinjiang.meituan.com/"
+  },
+  { "name": "揭阳", "alias": "jy", "url": "https://jy.meituan.com/" },
+  { "name": "荆门", "alias": "jingmen", "url": "https://jingmen.meituan.com/" },
+  { "name": "九江", "alias": "jj", "url": "https://jj.meituan.com/" },
+  { "name": "佳木斯", "alias": "jms", "url": "https://jms.meituan.com/" },
+  { "name": "锦州", "alias": "jinzhou", "url": "https://jinzhou.meituan.com/" },
+  { "name": "金坛", "alias": "jintan", "url": "https://jintan.meituan.com/" },
+  { "name": "济源", "alias": "jiyuan", "url": "https://jiyuan.meituan.com/" },
+  { "name": "景德镇", "alias": "jdz", "url": "https://jdz.meituan.com/" },
+  { "name": "酒泉", "alias": "jq", "url": "https://jq.meituan.com/" },
+  { "name": "鸡西", "alias": "jixi", "url": "https://jixi.meituan.com/" },
+  { "name": "晋中", "alias": "jz", "url": "https://jz.meituan.com/" },
+  {
+    "name": "靖江",
+    "alias": "jingjiang",
+    "url": "https://jingjiang.meituan.com/"
+  },
+  { "name": "吉安", "alias": "ja", "url": "https://ja.meituan.com/" },
+  { "name": "嘉善", "alias": "js", "url": "https://js.meituan.com/" },
+  { "name": "句容", "alias": "jr", "url": "https://jr.meituan.com/" },
+  {
+    "name": "胶州",
+    "alias": "jiaozhou",
+    "url": "https://jiaozhou.meituan.com/"
+  },
+  { "name": "即墨", "alias": "jimo", "url": "https://jimo.meituan.com/" },
+  {
+    "name": "晋城",
+    "alias": "jincheng",
+    "url": "https://jincheng.meituan.com/"
+  },
+  { "name": "江都", "alias": "jiangdu", "url": "https://jiangdu.meituan.com/" },
+  {
+    "name": "江山",
+    "alias": "jiangshan",
+    "url": "https://jiangshan.meituan.com/"
+  },
+  {
+    "name": "金昌",
+    "alias": "jinchang",
+    "url": "https://jinchang.meituan.com/"
+  },
+  { "name": "建湖", "alias": "jianhu", "url": "https://jianhu.meituan.com/" },
+  {
+    "name": "晋州",
+    "alias": "jinzhoushi",
+    "url": "https://jinzhoushi.meituan.com/"
+  },
+  { "name": "嘉峪关", "alias": "jyg", "url": "https://jyg.meituan.com/" },
+  { "name": "建德", "alias": "jd", "url": "https://jd.meituan.com/" },
+  {
+    "name": "简阳",
+    "alias": "jianyang",
+    "url": "https://jianyang.meituan.com/"
+  },
+  { "name": "介休", "alias": "jiexiu", "url": "https://jiexiu.meituan.com/" },
+  {
+    "name": "景东彝族自治县",
+    "alias": "jingdongyizuzizh",
+    "url": "https://jingdongyizuzizh.meituan.com/"
+  },
+  { "name": "九台", "alias": "jiutai", "url": "https://jiutai.meituan.com/" },
+  {
+    "name": "景谷",
+    "alias": "jingguxian",
+    "url": "https://jingguxian.meituan.com/"
+  },
+  {
+    "name": "靖西市",
+    "alias": "jingxixian",
+    "url": "https://jingxixian.meituan.com/"
+  },
+  { "name": "蛟河", "alias": "jiaohe", "url": "https://jiaohe.meituan.com/" },
+  {
+    "name": "建阳",
+    "alias": "jianyangjy",
+    "url": "https://jianyangjy.meituan.com/"
+  },
+  { "name": "郏县", "alias": "jiaxian", "url": "https://jiaxian.meituan.com/" },
+  { "name": "金堂", "alias": "jintang", "url": "https://jintang.meituan.com/" },
+  { "name": "监利市", "alias": "jianli", "url": "https://jianli.meituan.com/" },
+  {
+    "name": "江津",
+    "alias": "jiangjin",
+    "url": "https://jiangjin.meituan.com/"
+  },
+  { "name": "巨野", "alias": "juye", "url": "https://juye.meituan.com/" },
+  {
+    "name": "嘉祥",
+    "alias": "jiaxiang",
+    "url": "https://jiaxiang.meituan.com/"
+  },
+  {
+    "name": "金乡",
+    "alias": "jinxiang",
+    "url": "https://jinxiang.meituan.com/"
+  },
+  { "name": "缙云", "alias": "jinyun", "url": "https://jinyun.meituan.com/" },
+  {
+    "name": "京山市",
+    "alias": "jingshan",
+    "url": "https://jingshan.meituan.com/"
+  },
+  {
+    "name": "江油",
+    "alias": "jiangyou",
+    "url": "https://jiangyou.meituan.com/"
+  },
+  { "name": "莒南", "alias": "junan", "url": "https://junan.meituan.com/" },
+  {
+    "name": "泾阳县",
+    "alias": "jingyangxian",
+    "url": "https://jingyangxian.meituan.com/"
+  },
+  { "name": "金湖", "alias": "jinhu", "url": "https://jinhu.meituan.com/" },
+  { "name": "集美", "alias": "jimei", "url": "https://jimei.meituan.com/" },
+  { "name": "金沙", "alias": "jinsha", "url": "https://jinsha.meituan.com/" },
+  {
+    "name": "泾县",
+    "alias": "jingxian",
+    "url": "https://jingxian.meituan.com/"
+  },
+  {
+    "name": "吉安县",
+    "alias": "jianxian",
+    "url": "https://jianxian.meituan.com/"
+  },
+  {
+    "name": "吉水县",
+    "alias": "jishuixian",
+    "url": "https://jishuixian.meituan.com/"
+  },
+  {
+    "name": "江川县",
+    "alias": "jiangchuanxian",
+    "url": "https://jiangchuanxian.meituan.com/"
+  },
+  {
+    "name": "江华瑶族自治县",
+    "alias": "jianghuayaozuziz",
+    "url": "https://jianghuayaozuziz.meituan.com/"
+  },
+  {
+    "name": "晋宁区",
+    "alias": "jinningxian",
+    "url": "https://jinningxian.meituan.com/"
+  },
+  {
+    "name": "江永",
+    "alias": "jiangyong",
+    "url": "https://jiangyong.meituan.com/"
+  },
+  {
+    "name": "建水县",
+    "alias": "jianshuixian",
+    "url": "https://jianshuixian.meituan.com/"
+  },
+  {
+    "name": "鄄城县",
+    "alias": "juanchengxian",
+    "url": "https://juanchengxian.meituan.com/"
+  },
+  {
+    "name": "靖边",
+    "alias": "jingbian",
+    "url": "https://jingbian.meituan.com/"
+  },
+  {
+    "name": "嘉鱼县",
+    "alias": "jiayuxian",
+    "url": "https://jiayuxian.meituan.com/"
+  },
+  {
+    "name": "祁县",
+    "alias": "jzqixian",
+    "url": "https://jzqixian.meituan.com/"
+  },
+  {
+    "name": "精河县",
+    "alias": "jinghexian",
+    "url": "https://jinghexian.meituan.com/"
+  },
+  { "name": "集安", "alias": "jianshi", "url": "https://jianshi.meituan.com/" },
+  { "name": "嘉义市", "alias": "jiayi", "url": "https://jiayi.meituan.com/" },
+  { "name": "基隆", "alias": "jilong", "url": "https://jilong.meituan.com/" },
+  { "name": "井冈山", "alias": "jgs", "url": "https://jgs.meituan.com/" },
+  { "name": "九寨沟", "alias": "jzg", "url": "https://jzg.meituan.com/" },
+  { "name": "昆明", "alias": "km", "url": "https://km.meituan.com/" },
+  { "name": "昆山", "alias": "kunshan", "url": "https://kunshan.meituan.com/" },
+  { "name": "开封", "alias": "kaifeng", "url": "https://kaifeng.meituan.com/" },
+  { "name": "克拉玛依", "alias": "klmy", "url": "https://klmy.meituan.com/" },
+  { "name": "开平", "alias": "kp", "url": "https://kp.meituan.com/" },
+  { "name": "库尔勒", "alias": "krl", "url": "https://krl.meituan.com/" },
+  { "name": "开化", "alias": "kaihua", "url": "https://kaihua.meituan.com/" },
+  {
+    "name": "可克达拉市",
+    "alias": "kkdls",
+    "url": "https://kkdls.meituan.com/"
+  },
+  {
+    "name": "开远市",
+    "alias": "kaiyuanshi",
+    "url": "https://kaiyuanshi.meituan.com/"
+  },
+  { "name": "奎屯", "alias": "kt", "url": "https://kt.meituan.com/" },
+  { "name": "昆玉市", "alias": "kys", "url": "https://kys.meituan.com/" },
+  { "name": "垦利", "alias": "kenli", "url": "https://kenli.meituan.com/" },
+  {
+    "name": "宽城",
+    "alias": "kuancheng",
+    "url": "https://kuancheng.meituan.com/"
+  },
+  { "name": "库车市", "alias": "kuche", "url": "https://kuche.meituan.com/" },
+  {
+    "name": "康县",
+    "alias": "kangxian",
+    "url": "https://kangxian.meituan.com/"
+  },
+  { "name": "开阳", "alias": "kaiyang", "url": "https://kaiyang.meituan.com/" },
+  {
+    "name": "开州区",
+    "alias": "kaizhouqu",
+    "url": "https://kaizhouqu.meituan.com/"
+  },
+  { "name": "凯里", "alias": "kl", "url": "https://kl.meituan.com/" },
+  { "name": "垦丁", "alias": "kending", "url": "https://kending.meituan.com/" },
+  { "name": "喀什地区", "alias": "ks", "url": "https://ks.meituan.com/" },
+  { "name": "克州", "alias": "kz", "url": "https://kz.meituan.com/" },
+  { "name": "连云港", "alias": "lyg", "url": "https://lyg.meituan.com/" },
+  { "name": "临沂", "alias": "linyi", "url": "https://linyi.meituan.com/" },
+  { "name": "洛阳", "alias": "luoyang", "url": "https://luoyang.meituan.com/" },
+  { "name": "柳州", "alias": "liuzhou", "url": "https://liuzhou.meituan.com/" },
+  { "name": "兰州", "alias": "lz", "url": "https://lz.meituan.com/" },
+  { "name": "聊城", "alias": "lc", "url": "https://lc.meituan.com/" },
+  { "name": "廊坊", "alias": "lf", "url": "https://lf.meituan.com/" },
+  {
+    "name": "辽阳",
+    "alias": "liaoyang",
+    "url": "https://liaoyang.meituan.com/"
+  },
+  { "name": "丽水", "alias": "lishui", "url": "https://lishui.meituan.com/" },
+  { "name": "六安", "alias": "la", "url": "https://la.meituan.com/" },
+  { "name": "乐山", "alias": "ls", "url": "https://ls.meituan.com/" },
+  { "name": "拉萨", "alias": "lasa", "url": "https://lasa.meituan.com/" },
+  { "name": "龙岩", "alias": "ly", "url": "https://ly.meituan.com/" },
+  { "name": "临汾", "alias": "linfen", "url": "https://linfen.meituan.com/" },
+  { "name": "林州", "alias": "linzhou", "url": "https://linzhou.meituan.com/" },
+  { "name": "来宾", "alias": "lb", "url": "https://lb.meituan.com/" },
+  { "name": "泸州", "alias": "luzhou", "url": "https://luzhou.meituan.com/" },
+  {
+    "name": "辽源",
+    "alias": "liaoyuan",
+    "url": "https://liaoyuan.meituan.com/"
+  },
+  { "name": "吕梁", "alias": "lvliang", "url": "https://lvliang.meituan.com/" },
+  { "name": "六盘水", "alias": "lps", "url": "https://lps.meituan.com/" },
+  { "name": "丽江", "alias": "lj", "url": "https://lj.meituan.com/" },
+  { "name": "莱芜", "alias": "lw", "url": "https://lw.meituan.com/" },
+  { "name": "漯河", "alias": "luohe", "url": "https://luohe.meituan.com/" },
+  { "name": "溧阳", "alias": "liyang", "url": "https://liyang.meituan.com/" },
+  { "name": "临海", "alias": "linhai", "url": "https://linhai.meituan.com/" },
+  { "name": "兰溪", "alias": "lx", "url": "https://lx.meituan.com/" },
+  { "name": "龙口", "alias": "lk", "url": "https://lk.meituan.com/" },
+  { "name": "耒阳", "alias": "leiyang", "url": "https://leiyang.meituan.com/" },
+  { "name": "莱州", "alias": "laizhou", "url": "https://laizhou.meituan.com/" },
+  { "name": "临安", "alias": "linan", "url": "https://linan.meituan.com/" },
+  { "name": "莱阳", "alias": "laiyang", "url": "https://laiyang.meituan.com/" },
+  { "name": "陆丰", "alias": "lufeng", "url": "https://lufeng.meituan.com/" },
+  { "name": "浏阳", "alias": "liuyang", "url": "https://liuyang.meituan.com/" },
+  {
+    "name": "廉江",
+    "alias": "lianjiang",
+    "url": "https://lianjiang.meituan.com/"
+  },
+  { "name": "娄底", "alias": "ld", "url": "https://ld.meituan.com/" },
+  {
+    "name": "凉山",
+    "alias": "liangshan",
+    "url": "https://liangshan.meituan.com/"
+  },
+  {
+    "name": "禄劝彝族苗族自治县",
+    "alias": "luquanxian",
+    "url": "https://luquanxian.meituan.com/"
+  },
+  { "name": "临沧", "alias": "lincang", "url": "https://lincang.meituan.com/" },
+  {
+    "name": "临泉县",
+    "alias": "linquanxian",
+    "url": "https://linquanxian.meituan.com/"
+  },
+  { "name": "灵宝", "alias": "lingbao", "url": "https://lingbao.meituan.com/" },
+  { "name": "冷水江", "alias": "lsj", "url": "https://lsj.meituan.com/" },
+  { "name": "乐陵", "alias": "ll", "url": "https://ll.meituan.com/" },
+  { "name": "临夏", "alias": "linxia", "url": "https://linxia.meituan.com/" },
+  { "name": "龙海区", "alias": "lh", "url": "https://lh.meituan.com/" },
+  { "name": "醴陵", "alias": "liling", "url": "https://liling.meituan.com/" },
+  { "name": "莱西", "alias": "laixi", "url": "https://laixi.meituan.com/" },
+  { "name": "乐昌", "alias": "lechang", "url": "https://lechang.meituan.com/" },
+  { "name": "乐平", "alias": "lp", "url": "https://lp.meituan.com/" },
+  {
+    "name": "阆中",
+    "alias": "langzhong",
+    "url": "https://langzhong.meituan.com/"
+  },
+  { "name": "鹿泉", "alias": "luquan", "url": "https://luquan.meituan.com/" },
+  { "name": "利川", "alias": "lichuan", "url": "https://lichuan.meituan.com/" },
+  { "name": "老河口", "alias": "lhk", "url": "https://lhk.meituan.com/" },
+  { "name": "凌海", "alias": "linghai", "url": "https://linghai.meituan.com/" },
+  { "name": "滦南", "alias": "luannan", "url": "https://luannan.meituan.com/" },
+  {
+    "name": "灵山",
+    "alias": "lingshan",
+    "url": "https://lingshan.meituan.com/"
+  },
+  {
+    "name": "连州",
+    "alias": "lianzhou",
+    "url": "https://lianzhou.meituan.com/"
+  },
+  {
+    "name": "陵水",
+    "alias": "lingshui",
+    "url": "https://lingshui.meituan.com/"
+  },
+  {
+    "name": "灵武市",
+    "alias": "lingwushi",
+    "url": "https://lingwushi.meituan.com/"
+  },
+  {
+    "name": "连江",
+    "alias": "lianjiangxian",
+    "url": "https://lianjiangxian.meituan.com/"
+  },
+  { "name": "临朐", "alias": "linqu", "url": "https://linqu.meituan.com/" },
+  { "name": "乐亭", "alias": "laoting", "url": "https://laoting.meituan.com/" },
+  {
+    "name": "滦州市",
+    "alias": "luanxian",
+    "url": "https://luanxian.meituan.com/"
+  },
+  {
+    "name": "栾城",
+    "alias": "luancheng",
+    "url": "https://luancheng.meituan.com/"
+  },
+  {
+    "name": "鲁山",
+    "alias": "lushanls",
+    "url": "https://lushanls.meituan.com/"
+  },
+  { "name": "灵石", "alias": "lingshi", "url": "https://lingshi.meituan.com/" },
+  {
+    "name": "临漳",
+    "alias": "linzhang",
+    "url": "https://linzhang.meituan.com/"
+  },
+  { "name": "临潼", "alias": "lintong", "url": "https://lintong.meituan.com/" },
+  { "name": "蓝田", "alias": "lantian", "url": "https://lantian.meituan.com/" },
+  { "name": "临清", "alias": "lq", "url": "https://lq.meituan.com/" },
+  {
+    "name": "隆昌市",
+    "alias": "longchang",
+    "url": "https://longchang.meituan.com/"
+  },
+  { "name": "鹿邑", "alias": "luyi", "url": "https://luyi.meituan.com/" },
+  { "name": "柳河", "alias": "liuhe", "url": "https://liuhe.meituan.com/" },
+  {
+    "name": "临猗",
+    "alias": "linyixian",
+    "url": "https://linyixian.meituan.com/"
+  },
+  {
+    "name": "梁山",
+    "alias": "liangshanxian",
+    "url": "https://liangshanxian.meituan.com/"
+  },
+  { "name": "利津", "alias": "lijin", "url": "https://lijin.meituan.com/" },
+  { "name": "临邑", "alias": "linyily", "url": "https://linyily.meituan.com/" },
+  {
+    "name": "龙泉",
+    "alias": "longquan",
+    "url": "https://longquan.meituan.com/"
+  },
+  {
+    "name": "陵川",
+    "alias": "lingchuan",
+    "url": "https://lingchuan.meituan.com/"
+  },
+  { "name": "隆尧", "alias": "longyao", "url": "https://longyao.meituan.com/" },
+  { "name": "雷州", "alias": "leizhou", "url": "https://leizhou.meituan.com/" },
+  {
+    "name": "栾川",
+    "alias": "luanchuan",
+    "url": "https://luanchuan.meituan.com/"
+  },
+  { "name": "龙游", "alias": "longyou", "url": "https://longyou.meituan.com/" },
+  { "name": "兰陵", "alias": "lanling", "url": "https://lanling.meituan.com/" },
+  { "name": "临沭", "alias": "linshu", "url": "https://linshu.meituan.com/" },
+  {
+    "name": "涟水",
+    "alias": "lianshui",
+    "url": "https://lianshui.meituan.com/"
+  },
+  { "name": "澧县", "alias": "lixian", "url": "https://lixian.meituan.com/" },
+  {
+    "name": "辽中",
+    "alias": "liaozhong",
+    "url": "https://liaozhong.meituan.com/"
+  },
+  {
+    "name": "罗平县",
+    "alias": "luopingxian",
+    "url": "https://luopingxian.meituan.com/"
+  },
+  {
+    "name": "涟源市",
+    "alias": "lianyuanshi",
+    "url": "https://lianyuanshi.meituan.com/"
+  },
+  {
+    "name": "庐江县",
+    "alias": "lujiangxian",
+    "url": "https://lujiangxian.meituan.com/"
+  },
+  { "name": "临颍", "alias": "linying", "url": "https://linying.meituan.com/" },
+  { "name": "蓝山", "alias": "lanshan", "url": "https://lanshan.meituan.com/" },
+  { "name": "隆回", "alias": "longhui", "url": "https://longhui.meituan.com/" },
+  { "name": "芦溪", "alias": "luxi", "url": "https://luxi.meituan.com/" },
+  {
+    "name": "卢氏县",
+    "alias": "lushixian",
+    "url": "https://lushixian.meituan.com/"
+  },
+  {
+    "name": "隆化县",
+    "alias": "longhuaxian",
+    "url": "https://longhuaxian.meituan.com/"
+  },
+  {
+    "name": "洛宁",
+    "alias": "luoningxian",
+    "url": "https://luoningxian.meituan.com/"
+  },
+  {
+    "name": "兰考县",
+    "alias": "lankaoxian",
+    "url": "https://lankaoxian.meituan.com/"
+  },
+  { "name": "临澧", "alias": "linli", "url": "https://linli.meituan.com/" },
+  { "name": "利辛", "alias": "lixin", "url": "https://lixin.meituan.com/" },
+  {
+    "name": "灵丘县",
+    "alias": "lingqiuxian",
+    "url": "https://lingqiuxian.meituan.com/"
+  },
+  {
+    "name": "禄丰市",
+    "alias": "lufengxian",
+    "url": "https://lufengxian.meituan.com/"
+  },
+  {
+    "name": "溧水区",
+    "alias": "lishuiqu",
+    "url": "https://lishuiqu.meituan.com/"
+  },
+  { "name": "泸县", "alias": "luxian", "url": "https://luxian.meituan.com/" },
+  {
+    "name": "洛川县",
+    "alias": "luochuanxian",
+    "url": "https://luochuanxian.meituan.com/"
+  },
+  {
+    "name": "罗定市",
+    "alias": "luodingshi",
+    "url": "https://luodingshi.meituan.com/"
+  },
+  { "name": "乐东", "alias": "ledong", "url": "https://ledong.meituan.com/" },
+  {
+    "name": "梁平",
+    "alias": "liangping",
+    "url": "https://liangping.meituan.com/"
+  },
+  {
+    "name": "临高县",
+    "alias": "lingaoxian",
+    "url": "https://lingaoxian.meituan.com/"
+  },
+  {
+    "name": "罗源县",
+    "alias": "luoyuanxian",
+    "url": "https://luoyuanxian.meituan.com/"
+  },
+  {
+    "name": "陆川县",
+    "alias": "luchuanxian",
+    "url": "https://luchuanxian.meituan.com/"
+  },
+  {
+    "name": "临江",
+    "alias": "linjiang",
+    "url": "https://linjiang.meituan.com/"
+  },
+  { "name": "陇南", "alias": "ln", "url": "https://ln.meituan.com/" },
+  { "name": "林芝", "alias": "linzhi", "url": "https://linzhi.meituan.com/" },
+  { "name": "绵阳", "alias": "my", "url": "https://my.meituan.com/" },
+  { "name": "牡丹江", "alias": "mdj", "url": "https://mdj.meituan.com/" },
+  { "name": "茂名", "alias": "mm", "url": "https://mm.meituan.com/" },
+  { "name": "马鞍山", "alias": "mas", "url": "https://mas.meituan.com/" },
+  { "name": "梅州", "alias": "mz", "url": "https://mz.meituan.com/" },
+  { "name": "眉山", "alias": "ms", "url": "https://ms.meituan.com/" },
+  {
+    "name": "门头沟区",
+    "alias": "mentougouqu",
+    "url": "https://mentougouqu.meituan.com/"
+  },
+  { "name": "密山", "alias": "mishan", "url": "https://mishan.meituan.com/" },
+  { "name": "满洲里", "alias": "mzl", "url": "https://mzl.meituan.com/" },
+  { "name": "梅河口", "alias": "mhk", "url": "https://mhk.meituan.com/" },
+  { "name": "汨罗", "alias": "ml", "url": "https://ml.meituan.com/" },
+  { "name": "明光", "alias": "mg", "url": "https://mg.meituan.com/" },
+  { "name": "麻城", "alias": "mc", "url": "https://mc.meituan.com/" },
+  {
+    "name": "孟州",
+    "alias": "mengzhou",
+    "url": "https://mengzhou.meituan.com/"
+  },
+  {
+    "name": "明水县",
+    "alias": "mingshuixian",
+    "url": "https://mingshuixian.meituan.com/"
+  },
+  {
+    "name": "孟津区",
+    "alias": "mengjin",
+    "url": "https://mengjin.meituan.com/"
+  },
+  { "name": "牟平", "alias": "muping", "url": "https://muping.meituan.com/" },
+  { "name": "眉县", "alias": "meixian", "url": "https://meixian.meituan.com/" },
+  { "name": "民权", "alias": "minquan", "url": "https://minquan.meituan.com/" },
+  { "name": "渑池", "alias": "mianchi", "url": "https://mianchi.meituan.com/" },
+  { "name": "绵竹", "alias": "mianzhu", "url": "https://mianzhu.meituan.com/" },
+  { "name": "蒙阴", "alias": "mengyin", "url": "https://mengyin.meituan.com/" },
+  {
+    "name": "蒙自市",
+    "alias": "mengzishi",
+    "url": "https://mengzishi.meituan.com/"
+  },
+  {
+    "name": "蒙城",
+    "alias": "mengcheng",
+    "url": "https://mengcheng.meituan.com/"
+  },
+  {
+    "name": "勐腊县",
+    "alias": "menglaxian",
+    "url": "https://menglaxian.meituan.com/"
+  },
+  {
+    "name": "米易县",
+    "alias": "miyixian",
+    "url": "https://miyixian.meituan.com/"
+  },
+  {
+    "name": "闽侯县",
+    "alias": "minhouxian",
+    "url": "https://minhouxian.meituan.com/"
+  },
+  { "name": "苗栗", "alias": "miaoli", "url": "https://miaoli.meituan.com/" },
+  { "name": "漠河市", "alias": "mh", "url": "https://mh.meituan.com/" },
+  {
+    "name": "冥王星",
+    "alias": "mingwangxing",
+    "url": "https://mingwangxing.meituan.com/"
+  },
+  { "name": "南京", "alias": "nj", "url": "https://nj.meituan.com/" },
+  { "name": "宁波", "alias": "nb", "url": "https://nb.meituan.com/" },
+  { "name": "南宁", "alias": "nn", "url": "https://nn.meituan.com/" },
+  { "name": "南昌", "alias": "nc", "url": "https://nc.meituan.com/" },
+  { "name": "南通", "alias": "nt", "url": "https://nt.meituan.com/" },
+  { "name": "南阳", "alias": "ny", "url": "https://ny.meituan.com/" },
+  { "name": "宁德", "alias": "nd", "url": "https://nd.meituan.com/" },
+  {
+    "name": "南充",
+    "alias": "nanchong",
+    "url": "https://nanchong.meituan.com/"
+  },
+  { "name": "南平", "alias": "np", "url": "https://np.meituan.com/" },
+  { "name": "内江", "alias": "scnj", "url": "https://scnj.meituan.com/" },
+  { "name": "宁海", "alias": "nh", "url": "https://nh.meituan.com/" },
+  { "name": "南安", "alias": "na", "url": "https://na.meituan.com/" },
+  { "name": "农安县", "alias": "nax", "url": "https://nax.meituan.com/" },
+  { "name": "宁乡", "alias": "nx", "url": "https://nx.meituan.com/" },
+  { "name": "南沙", "alias": "ns", "url": "https://ns.meituan.com/" },
+  {
+    "name": "南川",
+    "alias": "nanchuan",
+    "url": "https://nanchuan.meituan.com/"
+  },
+  { "name": "讷河", "alias": "nehe", "url": "https://nehe.meituan.com/" },
+  {
+    "name": "南雄",
+    "alias": "nanxiong",
+    "url": "https://nanxiong.meituan.com/"
+  },
+  {
+    "name": "嫩江市",
+    "alias": "nenjiangxian",
+    "url": "https://nenjiangxian.meituan.com/"
+  },
+  {
+    "name": "宁远县",
+    "alias": "ningyuanxian",
+    "url": "https://ningyuanxian.meituan.com/"
+  },
+  { "name": "南陵", "alias": "nanling", "url": "https://nanling.meituan.com/" },
+  {
+    "name": "宁阳",
+    "alias": "ningyang",
+    "url": "https://ningyang.meituan.com/"
+  },
+  { "name": "宁国", "alias": "ningguo", "url": "https://ningguo.meituan.com/" },
+  { "name": "宁晋", "alias": "ningjin", "url": "https://ningjin.meituan.com/" },
+  {
+    "name": "宁津",
+    "alias": "ningjinnj",
+    "url": "https://ningjinnj.meituan.com/"
+  },
+  { "name": "内丘", "alias": "neiqiu", "url": "https://neiqiu.meituan.com/" },
+  { "name": "南宫", "alias": "nangong", "url": "https://nangong.meituan.com/" },
+  {
+    "name": "内黄",
+    "alias": "neihuang",
+    "url": "https://neihuang.meituan.com/"
+  },
+  { "name": "南和区", "alias": "nanhe", "url": "https://nanhe.meituan.com/" },
+  {
+    "name": "南部县",
+    "alias": "nanbuxian",
+    "url": "https://nanbuxian.meituan.com/"
+  },
+  {
+    "name": "南皮县",
+    "alias": "nanpixian",
+    "url": "https://nanpixian.meituan.com/"
+  },
+  {
+    "name": "宁陵",
+    "alias": "ninglingxian",
+    "url": "https://ninglingxian.meituan.com/"
+  },
+  {
+    "name": "南郑区",
+    "alias": "nanzhengxian",
+    "url": "https://nanzhengxian.meituan.com/"
+  },
+  {
+    "name": "宁蒗彝族自治县",
+    "alias": "ninglangyizuzizh",
+    "url": "https://ninglangyizuzizh.meituan.com/"
+  },
+  { "name": "南乐", "alias": "nanle", "url": "https://nanle.meituan.com/" },
+  { "name": "南投", "alias": "nantou", "url": "https://nantou.meituan.com/" },
+  { "name": "那曲", "alias": "nq", "url": "https://nq.meituan.com/" },
+  { "name": "怒江", "alias": "nujiang", "url": "https://nujiang.meituan.com/" },
+  { "name": "莆田", "alias": "pt", "url": "https://pt.meituan.com/" },
+  { "name": "盘锦", "alias": "pj", "url": "https://pj.meituan.com/" },
+  { "name": "平顶山", "alias": "pds", "url": "https://pds.meituan.com/" },
+  { "name": "濮阳", "alias": "puyang", "url": "https://puyang.meituan.com/" },
+  { "name": "萍乡", "alias": "px", "url": "https://px.meituan.com/" },
+  {
+    "name": "攀枝花",
+    "alias": "panzhihua",
+    "url": "https://panzhihua.meituan.com/"
+  },
+  { "name": "普洱", "alias": "pe", "url": "https://pe.meituan.com/" },
+  { "name": "平凉", "alias": "pl", "url": "https://pl.meituan.com/" },
+  { "name": "邳州", "alias": "pz", "url": "https://pz.meituan.com/" },
+  { "name": "平湖", "alias": "ph", "url": "https://ph.meituan.com/" },
+  { "name": "普宁", "alias": "pn", "url": "https://pn.meituan.com/" },
+  { "name": "平度", "alias": "pd", "url": "https://pd.meituan.com/" },
+  {
+    "name": "彭州",
+    "alias": "pengzhou",
+    "url": "https://pengzhou.meituan.com/"
+  },
+  {
+    "name": "蓬莱区",
+    "alias": "penglai",
+    "url": "https://penglai.meituan.com/"
+  },
+  {
+    "name": "平阳",
+    "alias": "pingyang",
+    "url": "https://pingyang.meituan.com/"
+  },
+  { "name": "沛县", "alias": "peixian", "url": "https://peixian.meituan.com/" },
+  { "name": "平舆", "alias": "pingyu", "url": "https://pingyu.meituan.com/" },
+  { "name": "浦江", "alias": "pujiang", "url": "https://pujiang.meituan.com/" },
+  {
+    "name": "平原",
+    "alias": "pingyuan",
+    "url": "https://pingyuan.meituan.com/"
+  },
+  { "name": "平潭", "alias": "pingtan", "url": "https://pingtan.meituan.com/" },
+  {
+    "name": "普兰店",
+    "alias": "pulandian",
+    "url": "https://pulandian.meituan.com/"
+  },
+  { "name": "蒲城", "alias": "pucheng", "url": "https://pucheng.meituan.com/" },
+  {
+    "name": "盘州市",
+    "alias": "panxian",
+    "url": "https://panxian.meituan.com/"
+  },
+  {
+    "name": "平江",
+    "alias": "pingjiang",
+    "url": "https://pingjiang.meituan.com/"
+  },
+  {
+    "name": "濮阳县",
+    "alias": "puyangxian",
+    "url": "https://puyangxian.meituan.com/"
+  },
+  {
+    "name": "平山",
+    "alias": "pingshan",
+    "url": "https://pingshan.meituan.com/"
+  },
+  {
+    "name": "平泉市",
+    "alias": "pingquan",
+    "url": "https://pingquan.meituan.com/"
+  },
+  { "name": "平邑", "alias": "pingyi", "url": "https://pingyi.meituan.com/" },
+  { "name": "磐石", "alias": "panshi", "url": "https://panshi.meituan.com/" },
+  { "name": "鄱阳", "alias": "poyang", "url": "https://poyang.meituan.com/" },
+  { "name": "平遥", "alias": "pingyao", "url": "https://pingyao.meituan.com/" },
+  {
+    "name": "平果市",
+    "alias": "pingguo",
+    "url": "https://pingguo.meituan.com/"
+  },
+  {
+    "name": "平罗县",
+    "alias": "pingluoxian",
+    "url": "https://pingluoxian.meituan.com/"
+  },
+  {
+    "name": "平阴县",
+    "alias": "pingyinxian",
+    "url": "https://pingyinxian.meituan.com/"
+  },
+  {
+    "name": "平陆县",
+    "alias": "pingluxian",
+    "url": "https://pingluxian.meituan.com/"
+  },
+  {
+    "name": "平昌县",
+    "alias": "pingchangxian",
+    "url": "https://pingchangxian.meituan.com/"
+  },
+  {
+    "name": "平南县",
+    "alias": "pingnanxian",
+    "url": "https://pingnanxian.meituan.com/"
+  },
+  {
+    "name": "彭水苗族土家族自治县",
+    "alias": "pengshuizizhixia",
+    "url": "https://pengshuizizhixia.meituan.com/"
+  },
+  { "name": "平定县", "alias": "pdx", "url": "https://pdx.meituan.com/" },
+  { "name": "澎湖", "alias": "penghu", "url": "https://penghu.meituan.com/" },
+  { "name": "青岛", "alias": "qd", "url": "https://qd.meituan.com/" },
+  { "name": "秦皇岛", "alias": "qhd", "url": "https://qhd.meituan.com/" },
+  { "name": "泉州", "alias": "qz", "url": "https://qz.meituan.com/" },
+  { "name": "曲靖", "alias": "qj", "url": "https://qj.meituan.com/" },
+  { "name": "衢州", "alias": "quzhou", "url": "https://quzhou.meituan.com/" },
+  {
+    "name": "清远",
+    "alias": "qingyuan",
+    "url": "https://qingyuan.meituan.com/"
+  },
+  { "name": "齐齐哈尔", "alias": "qqhr", "url": "https://qqhr.meituan.com/" },
+  { "name": "钦州", "alias": "qinzhou", "url": "https://qinzhou.meituan.com/" },
+  { "name": "七台河", "alias": "qth", "url": "https://qth.meituan.com/" },
+  {
+    "name": "庆阳",
+    "alias": "qingyang",
+    "url": "https://qingyang.meituan.com/"
+  },
+  { "name": "迁安", "alias": "qa", "url": "https://qa.meituan.com/" },
+  {
+    "name": "青州",
+    "alias": "qingzhou",
+    "url": "https://qingzhou.meituan.com/"
+  },
+  { "name": "启东", "alias": "qidong", "url": "https://qidong.meituan.com/" },
+  {
+    "name": "潜江",
+    "alias": "qianjiang",
+    "url": "https://qianjiang.meituan.com/"
+  },
+  { "name": "黔东南", "alias": "qdn", "url": "https://qdn.meituan.com/" },
+  { "name": "黔西南", "alias": "qxn", "url": "https://qxn.meituan.com/" },
+  {
+    "name": "黔江区",
+    "alias": "qianjiangqu",
+    "url": "https://qianjiangqu.meituan.com/"
+  },
+  {
+    "name": "青铜峡市",
+    "alias": "qingtongxiashi",
+    "url": "https://qingtongxiashi.meituan.com/"
+  },
+  { "name": "琼海", "alias": "qh", "url": "https://qh.meituan.com/" },
+  { "name": "沁阳", "alias": "qy", "url": "https://qy.meituan.com/" },
+  { "name": "邛崃", "alias": "ql", "url": "https://ql.meituan.com/" },
+  { "name": "齐河", "alias": "qihe", "url": "https://qihe.meituan.com/" },
+  { "name": "黔南", "alias": "qn", "url": "https://qn.meituan.com/" },
+  { "name": "淇县", "alias": "qixian", "url": "https://qixian.meituan.com/" },
+  {
+    "name": "全椒",
+    "alias": "quanjiao",
+    "url": "https://quanjiao.meituan.com/"
+  },
+  { "name": "栖霞", "alias": "qixia", "url": "https://qixia.meituan.com/" },
+  {
+    "name": "青田",
+    "alias": "qingtian",
+    "url": "https://qingtian.meituan.com/"
+  },
+  { "name": "清河", "alias": "qinghe", "url": "https://qinghe.meituan.com/" },
+  { "name": "庆云", "alias": "qingyun", "url": "https://qingyun.meituan.com/" },
+  {
+    "name": "潜山市",
+    "alias": "qianshan",
+    "url": "https://qianshan.meituan.com/"
+  },
+  {
+    "name": "青县",
+    "alias": "qingxian",
+    "url": "https://qingxian.meituan.com/"
+  },
+  {
+    "name": "祁东县",
+    "alias": "qidongxian",
+    "url": "https://qidongxian.meituan.com/"
+  },
+  {
+    "name": "庆安县",
+    "alias": "qinganxian",
+    "url": "https://qinganxian.meituan.com/"
+  },
+  {
+    "name": "杞县",
+    "alias": "qixiankaifeng",
+    "url": "https://qixiankaifeng.meituan.com/"
+  },
+  {
+    "name": "青冈县",
+    "alias": "qinggangxian",
+    "url": "https://qinggangxian.meituan.com/"
+  },
+  {
+    "name": "岐山县",
+    "alias": "qishanxian",
+    "url": "https://qishanxian.meituan.com/"
+  },
+  {
+    "name": "琼中",
+    "alias": "qiongzhong",
+    "url": "https://qiongzhong.meituan.com/"
+  },
+  {
+    "name": "青阳县",
+    "alias": "qingyangxian",
+    "url": "https://qingyangxian.meituan.com/"
+  },
+  {
+    "name": "清镇",
+    "alias": "qingzhen",
+    "url": "https://qingzhen.meituan.com/"
+  },
+  { "name": "綦江", "alias": "qijiang", "url": "https://qijiang.meituan.com/" },
+  { "name": "清徐", "alias": "qingxu", "url": "https://qingxu.meituan.com/" },
+  {
+    "name": "迁西县",
+    "alias": "qianxixian",
+    "url": "https://qianxixian.meituan.com/"
+  },
+  {
+    "name": "企石镇",
+    "alias": "qishizhen",
+    "url": "https://qishizhen.meituan.com/"
+  },
+  {
+    "name": "清丰",
+    "alias": "qingfeng",
+    "url": "https://qingfeng.meituan.com/"
+  },
+  { "name": "曲阜", "alias": "qf", "url": "https://qf.meituan.com/" },
+  { "name": "日照", "alias": "rizhao", "url": "https://rizhao.meituan.com/" },
+  { "name": "瑞安", "alias": "ruian", "url": "https://ruian.meituan.com/" },
+  { "name": "荣成", "alias": "rc", "url": "https://rc.meituan.com/" },
+  { "name": "乳山", "alias": "rs", "url": "https://rs.meituan.com/" },
+  { "name": "如皋", "alias": "rg", "url": "https://rg.meituan.com/" },
+  { "name": "汝州", "alias": "rz", "url": "https://rz.meituan.com/" },
+  { "name": "如东", "alias": "rudong", "url": "https://rudong.meituan.com/" },
+  { "name": "仁怀", "alias": "rh", "url": "https://rh.meituan.com/" },
+  { "name": "瑞金", "alias": "rj", "url": "https://rj.meituan.com/" },
+  {
+    "name": "荣昌区",
+    "alias": "rongchangqu",
+    "url": "https://rongchangqu.meituan.com/"
+  },
+  { "name": "仁寿", "alias": "renshou", "url": "https://renshou.meituan.com/" },
+  { "name": "任丘", "alias": "renqiu", "url": "https://renqiu.meituan.com/" },
+  { "name": "汝阳", "alias": "ruyang", "url": "https://ruyang.meituan.com/" },
+  { "name": "瑞丽", "alias": "ruili", "url": "https://ruili.meituan.com/" },
+  {
+    "name": "任泽区",
+    "alias": "renxian",
+    "url": "https://renxian.meituan.com/"
+  },
+  {
+    "name": "汝城县",
+    "alias": "ruchengxian",
+    "url": "https://ruchengxian.meituan.com/"
+  },
+  {
+    "name": "容县",
+    "alias": "rongxian",
+    "url": "https://rongxian.meituan.com/"
+  },
+  {
+    "name": "瑞昌",
+    "alias": "ruichang",
+    "url": "https://ruichang.meituan.com/"
+  },
+  { "name": "日喀则", "alias": "rkz", "url": "https://rkz.meituan.com/" },
+  { "name": "上海", "alias": "sh", "url": "https://sh.meituan.com/" },
+  { "name": "深圳", "alias": "sz", "url": "https://sz.meituan.com/" },
+  { "name": "石家庄", "alias": "sjz", "url": "https://sjz.meituan.com/" },
+  { "name": "苏州", "alias": "su", "url": "https://su.meituan.com/" },
+  { "name": "沈阳", "alias": "sy", "url": "https://sy.meituan.com/" },
+  { "name": "三亚", "alias": "sanya", "url": "https://sanya.meituan.com/" },
+  { "name": "汕头", "alias": "st", "url": "https://st.meituan.com/" },
+  { "name": "绍兴", "alias": "sx", "url": "https://sx.meituan.com/" },
+  {
+    "name": "松原",
+    "alias": "songyuan",
+    "url": "https://songyuan.meituan.com/"
+  },
+  { "name": "韶关", "alias": "sg", "url": "https://sg.meituan.com/" },
+  {
+    "name": "邵阳",
+    "alias": "shaoyang",
+    "url": "https://shaoyang.meituan.com/"
+  },
+  { "name": "宿迁", "alias": "suqian", "url": "https://suqian.meituan.com/" },
+  { "name": "十堰", "alias": "shiyan", "url": "https://shiyan.meituan.com/" },
+  {
+    "name": "宿州",
+    "alias": "suzhousz",
+    "url": "https://suzhousz.meituan.com/"
+  },
+  { "name": "顺德", "alias": "sd", "url": "https://sd.meituan.com/" },
+  { "name": "上饶", "alias": "sr", "url": "https://sr.meituan.com/" },
+  { "name": "商丘", "alias": "sq", "url": "https://sq.meituan.com/" },
+  { "name": "石河子", "alias": "shz", "url": "https://shz.meituan.com/" },
+  { "name": "三门峡", "alias": "smx", "url": "https://smx.meituan.com/" },
+  { "name": "随州", "alias": "suizhou", "url": "https://suizhou.meituan.com/" },
+  { "name": "绥化", "alias": "suihua", "url": "https://suihua.meituan.com/" },
+  { "name": "双鸭山", "alias": "sys", "url": "https://sys.meituan.com/" },
+  { "name": "汕尾", "alias": "sw", "url": "https://sw.meituan.com/" },
+  { "name": "遂宁", "alias": "suining", "url": "https://suining.meituan.com/" },
+  { "name": "商洛", "alias": "sl", "url": "https://sl.meituan.com/" },
+  { "name": "石嘴山", "alias": "szs", "url": "https://szs.meituan.com/" },
+  { "name": "四平", "alias": "sp", "url": "https://sp.meituan.com/" },
+  { "name": "三明", "alias": "sm", "url": "https://sm.meituan.com/" },
+  { "name": "石狮", "alias": "ss", "url": "https://ss.meituan.com/" },
+  { "name": "上虞", "alias": "shangyu", "url": "https://shangyu.meituan.com/" },
+  {
+    "name": "寿光",
+    "alias": "shouguang",
+    "url": "https://shouguang.meituan.com/"
+  },
+  {
+    "name": "嵊州",
+    "alias": "shengzhou",
+    "url": "https://shengzhou.meituan.com/"
+  },
+  { "name": "沭阳", "alias": "shuyang", "url": "https://shuyang.meituan.com/" },
+  { "name": "射阳", "alias": "sheyang", "url": "https://sheyang.meituan.com/" },
+  { "name": "三河", "alias": "sanhe", "url": "https://sanhe.meituan.com/" },
+  {
+    "name": "朔州",
+    "alias": "shuozhou",
+    "url": "https://shuozhou.meituan.com/"
+  },
+  {
+    "name": "舒城",
+    "alias": "shucheng",
+    "url": "https://shucheng.meituan.com/"
+  },
+  {
+    "name": "莘县",
+    "alias": "shenxian",
+    "url": "https://shenxian.meituan.com/"
+  },
+  {
+    "name": "石林彝族自治县",
+    "alias": "shilinxian",
+    "url": "https://shilinxian.meituan.com/"
+  },
+  {
+    "name": "嵩明县",
+    "alias": "songmingxian",
+    "url": "https://songmingxian.meituan.com/"
+  },
+  {
+    "name": "韶山",
+    "alias": "shaoshan",
+    "url": "https://shaoshan.meituan.com/"
+  },
+  { "name": "沙河", "alias": "shahe", "url": "https://shahe.meituan.com/" },
+  { "name": "四会", "alias": "sihui", "url": "https://sihui.meituan.com/" },
+  { "name": "松滋", "alias": "songzi", "url": "https://songzi.meituan.com/" },
+  { "name": "舒兰", "alias": "shulan", "url": "https://shulan.meituan.com/" },
+  {
+    "name": "邵东市",
+    "alias": "shaodong",
+    "url": "https://shaodong.meituan.com/"
+  },
+  { "name": "睢县", "alias": "suixian", "url": "https://suixian.meituan.com/" },
+  { "name": "泗阳", "alias": "siyang", "url": "https://siyang.meituan.com/" },
+  { "name": "沙湾市", "alias": "shawan", "url": "https://shawan.meituan.com/" },
+  { "name": "涉县", "alias": "shexian", "url": "https://shexian.meituan.com/" },
+  { "name": "双河市", "alias": "shs", "url": "https://shs.meituan.com/" },
+  {
+    "name": "绥中",
+    "alias": "suizhong",
+    "url": "https://suizhong.meituan.com/"
+  },
+  {
+    "name": "上高",
+    "alias": "shanggao",
+    "url": "https://shanggao.meituan.com/"
+  },
+  { "name": "石泉", "alias": "shiquan", "url": "https://shiquan.meituan.com/" },
+  { "name": "泗洪", "alias": "sihong", "url": "https://sihong.meituan.com/" },
+  {
+    "name": "单县",
+    "alias": "shanxian",
+    "url": "https://shanxian.meituan.com/"
+  },
+  { "name": "沈丘", "alias": "shenqiu", "url": "https://shenqiu.meituan.com/" },
+  { "name": "三门", "alias": "sanmen", "url": "https://sanmen.meituan.com/" },
+  {
+    "name": "睢宁",
+    "alias": "suiningxian",
+    "url": "https://suiningxian.meituan.com/"
+  },
+  {
+    "name": "上蔡",
+    "alias": "shangcai",
+    "url": "https://shangcai.meituan.com/"
+  },
+  {
+    "name": "遂昌",
+    "alias": "suichang",
+    "url": "https://suichang.meituan.com/"
+  },
+  { "name": "石岛", "alias": "shidao", "url": "https://shidao.meituan.com/" },
+  { "name": "什邡", "alias": "shifang", "url": "https://shifang.meituan.com/" },
+  {
+    "name": "上杭",
+    "alias": "shanghang",
+    "url": "https://shanghang.meituan.com/"
+  },
+  {
+    "name": "嵩县",
+    "alias": "songxian",
+    "url": "https://songxian.meituan.com/"
+  },
+  {
+    "name": "三原县",
+    "alias": "sanyuanxian",
+    "url": "https://sanyuanxian.meituan.com/"
+  },
+  {
+    "name": "射洪市",
+    "alias": "shehong",
+    "url": "https://shehong.meituan.com/"
+  },
+  { "name": "商河", "alias": "shanghe", "url": "https://shanghe.meituan.com/" },
+  { "name": "泗水", "alias": "sishui", "url": "https://sishui.meituan.com/" },
+  { "name": "社旗", "alias": "sheqi", "url": "https://sheqi.meituan.com/" },
+  { "name": "泗县", "alias": "sixian", "url": "https://sixian.meituan.com/" },
+  {
+    "name": "深州市",
+    "alias": "shenzhoushi",
+    "url": "https://shenzhoushi.meituan.com/"
+  },
+  {
+    "name": "上林县",
+    "alias": "shanglinxian",
+    "url": "https://shanglinxian.meituan.com/"
+  },
+  {
+    "name": "商水县",
+    "alias": "shangshuixian",
+    "url": "https://shangshuixian.meituan.com/"
+  },
+  {
+    "name": "双峰",
+    "alias": "shuangfeng",
+    "url": "https://shuangfeng.meituan.com/"
+  },
+  {
+    "name": "遂川",
+    "alias": "suichuan",
+    "url": "https://suichuan.meituan.com/"
+  },
+  { "name": "上栗", "alias": "shangli", "url": "https://shangli.meituan.com/" },
+  {
+    "name": "莎车县",
+    "alias": "shachexian",
+    "url": "https://shachexian.meituan.com/"
+  },
+  {
+    "name": "肃宁县",
+    "alias": "suningxian",
+    "url": "https://suningxian.meituan.com/"
+  },
+  {
+    "name": "商城县",
+    "alias": "shangchengxian",
+    "url": "https://shangchengxian.meituan.com/"
+  },
+  { "name": "桑植", "alias": "sangzhi", "url": "https://sangzhi.meituan.com/" },
+  { "name": "石门", "alias": "shimen", "url": "https://shimen.meituan.com/" },
+  {
+    "name": "鄯善县",
+    "alias": "shanshanxian",
+    "url": "https://shanshanxian.meituan.com/"
+  },
+  {
+    "name": "绥德县",
+    "alias": "suidexian",
+    "url": "https://suidexian.meituan.com/"
+  },
+  {
+    "name": "沙县区",
+    "alias": "shaxian",
+    "url": "https://shaxian.meituan.com/"
+  },
+  {
+    "name": "深泽县",
+    "alias": "shenzexian",
+    "url": "https://shenzexian.meituan.com/"
+  },
+  { "name": "石柱", "alias": "shizhu", "url": "https://shizhu.meituan.com/" },
+  { "name": "邵武", "alias": "shaowu", "url": "https://shaowu.meituan.com/" },
+  {
+    "name": "寿县",
+    "alias": "shouxian",
+    "url": "https://shouxian.meituan.com/"
+  },
+  {
+    "name": "三台县",
+    "alias": "santaixian",
+    "url": "https://santaixian.meituan.com/"
+  },
+  {
+    "name": "山丹县",
+    "alias": "shandanxian",
+    "url": "https://shandanxian.meituan.com/"
+  },
+  {
+    "name": "陕州区",
+    "alias": "shanzhouqu",
+    "url": "https://shanzhouqu.meituan.com/"
+  },
+  {
+    "name": "绥宁县",
+    "alias": "suiningxiansnx",
+    "url": "https://suiningxiansnx.meituan.com/"
+  },
+  {
+    "name": "双城",
+    "alias": "shuangcheng",
+    "url": "https://shuangcheng.meituan.com/"
+  },
+  { "name": "遂平", "alias": "suiping", "url": "https://suiping.meituan.com/" },
+  { "name": "沙雅", "alias": "shaya", "url": "https://shaya.meituan.com/" },
+  { "name": "神木市", "alias": "shenmu", "url": "https://shenmu.meituan.com/" },
+  { "name": "三清山", "alias": "sqs", "url": "https://sqs.meituan.com/" },
+  { "name": "神农架", "alias": "snj", "url": "https://snj.meituan.com/" },
+  { "name": "山南", "alias": "sn", "url": "https://sn.meituan.com/" },
+  { "name": "三峡", "alias": "sanx", "url": "https://sanx.meituan.com/" },
+  { "name": "天津", "alias": "tj", "url": "https://tj.meituan.com/" },
+  { "name": "太原", "alias": "ty", "url": "https://ty.meituan.com/" },
+  { "name": "唐山", "alias": "ts", "url": "https://ts.meituan.com/" },
+  { "name": "泰州", "alias": "taizhou", "url": "https://taizhou.meituan.com/" },
+  { "name": "台州", "alias": "tz", "url": "https://tz.meituan.com/" },
+  { "name": "泰安", "alias": "ta", "url": "https://ta.meituan.com/" },
+  { "name": "桐乡", "alias": "tx", "url": "https://tx.meituan.com/" },
+  { "name": "太仓", "alias": "taicang", "url": "https://taicang.meituan.com/" },
+  {
+    "name": "铜陵",
+    "alias": "tongling",
+    "url": "https://tongling.meituan.com/"
+  },
+  { "name": "铁岭", "alias": "tl", "url": "https://tl.meituan.com/" },
+  { "name": "铜仁", "alias": "tr", "url": "https://tr.meituan.com/" },
+  { "name": "铜川", "alias": "tc", "url": "https://tc.meituan.com/" },
+  {
+    "name": "天水",
+    "alias": "tianshui",
+    "url": "https://tianshui.meituan.com/"
+  },
+  { "name": "通化", "alias": "th", "url": "https://th.meituan.com/" },
+  {
+    "name": "天长",
+    "alias": "tianchang",
+    "url": "https://tianchang.meituan.com/"
+  },
+  { "name": "天门", "alias": "tm", "url": "https://tm.meituan.com/" },
+  {
+    "name": "图木舒克",
+    "alias": "tumushuke",
+    "url": "https://tumushuke.meituan.com/"
+  },
+  {
+    "name": "通辽",
+    "alias": "tongliao",
+    "url": "https://tongliao.meituan.com/"
+  },
+  {
+    "name": "滕州",
+    "alias": "tengzhou",
+    "url": "https://tengzhou.meituan.com/"
+  },
+  { "name": "台山", "alias": "taishan", "url": "https://taishan.meituan.com/" },
+  { "name": "泰兴", "alias": "taixing", "url": "https://taixing.meituan.com/" },
+  {
+    "name": "泰和县",
+    "alias": "taihexian",
+    "url": "https://taihexian.meituan.com/"
+  },
+  {
+    "name": "铜梁",
+    "alias": "tongliang",
+    "url": "https://tongliang.meituan.com/"
+  },
+  {
+    "name": "桐城",
+    "alias": "tongcheng",
+    "url": "https://tongcheng.meituan.com/"
+  },
+  { "name": "台前", "alias": "taiqian", "url": "https://taiqian.meituan.com/" },
+  { "name": "太和", "alias": "taihe", "url": "https://taihe.meituan.com/" },
+  { "name": "天台", "alias": "tiantai", "url": "https://tiantai.meituan.com/" },
+  { "name": "太谷区", "alias": "taigu", "url": "https://taigu.meituan.com/" },
+  {
+    "name": "藤县",
+    "alias": "tengxian",
+    "url": "https://tengxian.meituan.com/"
+  },
+  { "name": "汤阴", "alias": "tangyin", "url": "https://tangyin.meituan.com/" },
+  {
+    "name": "土默特右旗",
+    "alias": "tmtyq",
+    "url": "https://tmtyq.meituan.com/"
+  },
+  {
+    "name": "郯城",
+    "alias": "tancheng",
+    "url": "https://tancheng.meituan.com/"
+  },
+  { "name": "桐庐", "alias": "tonglu", "url": "https://tonglu.meituan.com/" },
+  { "name": "同安", "alias": "tongan", "url": "https://tongan.meituan.com/" },
+  {
+    "name": "桃源",
+    "alias": "taoyuanxian",
+    "url": "https://taoyuanxian.meituan.com/"
+  },
+  { "name": "洮南", "alias": "tn", "url": "https://tn.meituan.com/" },
+  { "name": "铜鼓", "alias": "tonggu", "url": "https://tonggu.meituan.com/" },
+  {
+    "name": "田东县",
+    "alias": "tiandongxian",
+    "url": "https://tiandongxian.meituan.com/"
+  },
+  {
+    "name": "太康县",
+    "alias": "taikangxian",
+    "url": "https://taikangxian.meituan.com/"
+  },
+  {
+    "name": "通许县",
+    "alias": "tongxuxian",
+    "url": "https://tongxuxian.meituan.com/"
+  },
+  {
+    "name": "通海县",
+    "alias": "tonghaixian",
+    "url": "https://tonghaixian.meituan.com/"
+  },
+  {
+    "name": "通榆县",
+    "alias": "tongyuxian",
+    "url": "https://tongyuxian.meituan.com/"
+  },
+  { "name": "唐河", "alias": "tanghe", "url": "https://tanghe.meituan.com/" },
+  {
+    "name": "同心县",
+    "alias": "tongxinxian",
+    "url": "https://tongxinxian.meituan.com/"
+  },
+  {
+    "name": "塔城市",
+    "alias": "tachengshi",
+    "url": "https://tachengshi.meituan.com/"
+  },
+  { "name": "台湾", "alias": "taiwan", "url": "https://taiwan.meituan.com/" },
+  {
+    "name": "通江县",
+    "alias": "tongjiangxian",
+    "url": "https://tongjiangxian.meituan.com/"
+  },
+  {
+    "name": "通河县",
+    "alias": "tonghexian",
+    "url": "https://tonghexian.meituan.com/"
+  },
+  {
+    "name": "屯昌县",
+    "alias": "tunchangxian",
+    "url": "https://tunchangxian.meituan.com/"
+  },
+  { "name": "吐鲁番", "alias": "tlf", "url": "https://tlf.meituan.com/" },
+  { "name": "台东", "alias": "taidong", "url": "https://taidong.meituan.com/" },
+  { "name": "桃园", "alias": "taoyuan", "url": "https://taoyuan.meituan.com/" },
+  { "name": "塔城", "alias": "tac", "url": "https://tac.meituan.com/" },
+  {
+    "name": "腾冲",
+    "alias": "tengchong",
+    "url": "https://tengchong.meituan.com/"
+  },
+  { "name": "台北", "alias": "tb", "url": "https://tb.meituan.com/" },
+  {
+    "name": "台中",
+    "alias": "taizhong",
+    "url": "https://taizhong.meituan.com/"
+  },
+  { "name": "台南", "alias": "tainan", "url": "https://tainan.meituan.com/" },
+  { "name": "武汉", "alias": "wh", "url": "https://wh.meituan.com/" },
+  { "name": "无锡", "alias": "wx", "url": "https://wx.meituan.com/" },
+  { "name": "温州", "alias": "wz", "url": "https://wz.meituan.com/" },
+  { "name": "潍坊", "alias": "wf", "url": "https://wf.meituan.com/" },
+  { "name": "威海", "alias": "weihai", "url": "https://weihai.meituan.com/" },
+  { "name": "芜湖", "alias": "wuhu", "url": "https://wuhu.meituan.com/" },
+  { "name": "乌鲁木齐", "alias": "xj", "url": "https://xj.meituan.com/" },
+  { "name": "渭南", "alias": "wn", "url": "https://wn.meituan.com/" },
+  { "name": "吴江", "alias": "wj", "url": "https://wj.meituan.com/" },
+  { "name": "温岭", "alias": "wenling", "url": "https://wenling.meituan.com/" },
+  { "name": "乌海", "alias": "wuhai", "url": "https://wuhai.meituan.com/" },
+  { "name": "万州", "alias": "wanzhou", "url": "https://wanzhou.meituan.com/" },
+  { "name": "梧州", "alias": "wuzhou", "url": "https://wuzhou.meituan.com/" },
+  { "name": "武安", "alias": "wuan", "url": "https://wuan.meituan.com/" },
+  { "name": "乌兰察布", "alias": "wlcb", "url": "https://wlcb.meituan.com/" },
+  { "name": "文登", "alias": "wd", "url": "https://wd.meituan.com/" },
+  { "name": "吴川", "alias": "wc", "url": "https://wc.meituan.com/" },
+  {
+    "name": "瓦房店",
+    "alias": "wafangdian",
+    "url": "https://wafangdian.meituan.com/"
+  },
+  { "name": "武威", "alias": "wuwei", "url": "https://wuwei.meituan.com/" },
+  { "name": "婺源", "alias": "wy", "url": "https://wy.meituan.com/" },
+  { "name": "五家渠市", "alias": "wjqs", "url": "https://wjqs.meituan.com/" },
+  { "name": "吴忠", "alias": "wuzhong", "url": "https://wuzhong.meituan.com/" },
+  {
+    "name": "乌兰浩特市",
+    "alias": "wlhts",
+    "url": "https://wlhts.meituan.com/"
+  },
+  { "name": "武夷山", "alias": "wys", "url": "https://wys.meituan.com/" },
+  {
+    "name": "文昌",
+    "alias": "wenchang",
+    "url": "https://wenchang.meituan.com/"
+  },
+  { "name": "武穴", "alias": "wuxue", "url": "https://wuxue.meituan.com/" },
+  { "name": "万宁", "alias": "wanning", "url": "https://wanning.meituan.com/" },
+  { "name": "舞钢", "alias": "wg", "url": "https://wg.meituan.com/" },
+  { "name": "温县", "alias": "wenxian", "url": "https://wenxian.meituan.com/" },
+  { "name": "五指山市", "alias": "wzss", "url": "https://wzss.meituan.com/" },
+  { "name": "乌苏", "alias": "wusu", "url": "https://wusu.meituan.com/" },
+  {
+    "name": "无为市",
+    "alias": "wuweiww",
+    "url": "https://wuweiww.meituan.com/"
+  },
+  {
+    "name": "湾沚区",
+    "alias": "wuhuxian",
+    "url": "https://wuhuxian.meituan.com/"
+  },
+  { "name": "卫辉", "alias": "weihui", "url": "https://weihui.meituan.com/" },
+  {
+    "name": "乌拉特前旗",
+    "alias": "wltqq",
+    "url": "https://wltqq.meituan.com/"
+  },
+  { "name": "微山", "alias": "weishan", "url": "https://weishan.meituan.com/" },
+  {
+    "name": "汶上",
+    "alias": "wenshang",
+    "url": "https://wenshang.meituan.com/"
+  },
+  { "name": "武城", "alias": "wucheng", "url": "https://wucheng.meituan.com/" },
+  {
+    "name": "围场",
+    "alias": "weichang",
+    "url": "https://weichang.meituan.com/"
+  },
+  { "name": "文山", "alias": "ws", "url": "https://ws.meituan.com/" },
+  { "name": "武义", "alias": "wuyi", "url": "https://wuyi.meituan.com/" },
+  { "name": "武鸣", "alias": "wuming", "url": "https://wuming.meituan.com/" },
+  { "name": "威宁", "alias": "weining", "url": "https://weining.meituan.com/" },
+  { "name": "舞阳", "alias": "wuyang", "url": "https://wuyang.meituan.com/" },
+  { "name": "无极", "alias": "wuji", "url": "https://wuji.meituan.com/" },
+  { "name": "万荣", "alias": "wanrong", "url": "https://wanrong.meituan.com/" },
+  { "name": "万载", "alias": "wanzai", "url": "https://wanzai.meituan.com/" },
+  { "name": "威县", "alias": "weixian", "url": "https://weixian.meituan.com/" },
+  {
+    "name": "武平县",
+    "alias": "wupingxian",
+    "url": "https://wupingxian.meituan.com/"
+  },
+  {
+    "name": "尉氏县",
+    "alias": "weishixian",
+    "url": "https://weishixian.meituan.com/"
+  },
+  {
+    "name": "武隆区",
+    "alias": "wulongxian",
+    "url": "https://wulongxian.meituan.com/"
+  },
+  {
+    "name": "五常市",
+    "alias": "wuchangshi",
+    "url": "https://wuchangshi.meituan.com/"
+  },
+  {
+    "name": "旺苍县",
+    "alias": "wangcangxian",
+    "url": "https://wangcangxian.meituan.com/"
+  },
+  {
+    "name": "望奎县",
+    "alias": "wangkuixian",
+    "url": "https://wangkuixian.meituan.com/"
+  },
+  {
+    "name": "武冈市",
+    "alias": "wugangshi",
+    "url": "https://wugangshi.meituan.com/"
+  },
+  { "name": "武定", "alias": "wuding", "url": "https://wuding.meituan.com/" },
+  { "name": "武陟", "alias": "wuzhi", "url": "https://wuzhi.meituan.com/" },
+  { "name": "乌镇", "alias": "wuzhen", "url": "https://wuzhen.meituan.com/" },
+  { "name": "武当山", "alias": "wds", "url": "https://wds.meituan.com/" },
+  { "name": "西安", "alias": "xa", "url": "https://xa.meituan.com/" },
+  { "name": "厦门", "alias": "xm", "url": "https://xm.meituan.com/" },
+  { "name": "徐州", "alias": "xz", "url": "https://xz.meituan.com/" },
+  { "name": "襄阳", "alias": "xf", "url": "https://xf.meituan.com/" },
+  {
+    "name": "湘潭",
+    "alias": "xiangtan",
+    "url": "https://xiangtan.meituan.com/"
+  },
+  { "name": "西宁", "alias": "xn", "url": "https://xn.meituan.com/" },
+  {
+    "name": "宣城",
+    "alias": "xuancheng",
+    "url": "https://xuancheng.meituan.com/"
+  },
+  {
+    "name": "咸阳",
+    "alias": "xianyang",
+    "url": "https://xianyang.meituan.com/"
+  },
+  { "name": "许昌", "alias": "xc", "url": "https://xc.meituan.com/" },
+  { "name": "信阳", "alias": "xy", "url": "https://xy.meituan.com/" },
+  { "name": "邢台", "alias": "xt", "url": "https://xt.meituan.com/" },
+  { "name": "孝感", "alias": "xiaogan", "url": "https://xiaogan.meituan.com/" },
+  { "name": "新乡", "alias": "xx", "url": "https://xx.meituan.com/" },
+  { "name": "新泰", "alias": "xintai", "url": "https://xintai.meituan.com/" },
+  {
+    "name": "咸宁",
+    "alias": "xianning",
+    "url": "https://xianning.meituan.com/"
+  },
+  { "name": "新余", "alias": "xinyu", "url": "https://xinyu.meituan.com/" },
+  { "name": "兴安盟", "alias": "xan", "url": "https://xan.meituan.com/" },
+  { "name": "仙桃", "alias": "xiantao", "url": "https://xiantao.meituan.com/" },
+  { "name": "兴化", "alias": "xh", "url": "https://xh.meituan.com/" },
+  { "name": "西双版纳", "alias": "bn", "url": "https://bn.meituan.com/" },
+  { "name": "辛集", "alias": "xinji", "url": "https://xinji.meituan.com/" },
+  { "name": "新沂", "alias": "xinyi", "url": "https://xinyi.meituan.com/" },
+  {
+    "name": "新郑",
+    "alias": "xinzheng",
+    "url": "https://xinzheng.meituan.com/"
+  },
+  { "name": "新密", "alias": "xinmi", "url": "https://xinmi.meituan.com/" },
+  { "name": "忻州", "alias": "xinzhou", "url": "https://xinzhou.meituan.com/" },
+  { "name": "信宜", "alias": "xinyixy", "url": "https://xinyixy.meituan.com/" },
+  {
+    "name": "兴义市",
+    "alias": "xingyishi",
+    "url": "https://xingyishi.meituan.com/"
+  },
+  {
+    "name": "谢岗镇",
+    "alias": "xiegangzhen",
+    "url": "https://xiegangzhen.meituan.com/"
+  },
+  { "name": "锡林郭勒", "alias": "xlgl", "url": "https://xlgl.meituan.com/" },
+  { "name": "湘西", "alias": "xiangxi", "url": "https://xiangxi.meituan.com/" },
+  {
+    "name": "荥阳",
+    "alias": "xingyang",
+    "url": "https://xingyang.meituan.com/"
+  },
+  {
+    "name": "萧县",
+    "alias": "xiaoxian",
+    "url": "https://xiaoxian.meituan.com/"
+  },
+  {
+    "name": "兴宁",
+    "alias": "xingning",
+    "url": "https://xingning.meituan.com/"
+  },
+  { "name": "新民", "alias": "xinmin", "url": "https://xinmin.meituan.com/" },
+  {
+    "name": "项城",
+    "alias": "xiangcheng",
+    "url": "https://xiangcheng.meituan.com/"
+  },
+  { "name": "孝义", "alias": "xiaoyi", "url": "https://xiaoyi.meituan.com/" },
+  {
+    "name": "湘乡",
+    "alias": "xiangxiang",
+    "url": "https://xiangxiang.meituan.com/"
+  },
+  {
+    "name": "兴城",
+    "alias": "xingcheng",
+    "url": "https://xingcheng.meituan.com/"
+  },
+  { "name": "兴平", "alias": "xp", "url": "https://xp.meituan.com/" },
+  {
+    "name": "象山",
+    "alias": "xiangshan",
+    "url": "https://xiangshan.meituan.com/"
+  },
+  { "name": "修武", "alias": "xw", "url": "https://xw.meituan.com/" },
+  { "name": "息县", "alias": "xixian", "url": "https://xixian.meituan.com/" },
+  {
+    "name": "孝昌县",
+    "alias": "xiaochangxian",
+    "url": "https://xiaochangxian.meituan.com/"
+  },
+  {
+    "name": "湘阴",
+    "alias": "xiangyin",
+    "url": "https://xiangyin.meituan.com/"
+  },
+  {
+    "name": "响水",
+    "alias": "xiangshui",
+    "url": "https://xiangshui.meituan.com/"
+  },
+  { "name": "新化", "alias": "xinhua", "url": "https://xinhua.meituan.com/" },
+  { "name": "仙居", "alias": "xianju", "url": "https://xianju.meituan.com/" },
+  {
+    "name": "襄垣",
+    "alias": "xiangyuan",
+    "url": "https://xiangyuan.meituan.com/"
+  },
+  { "name": "宣威", "alias": "xuanwei", "url": "https://xuanwei.meituan.com/" },
+  { "name": "霞浦", "alias": "xiapu", "url": "https://xiapu.meituan.com/" },
+  { "name": "新安", "alias": "xinan", "url": "https://xinan.meituan.com/" },
+  {
+    "name": "新乡县",
+    "alias": "xinxiangxian",
+    "url": "https://xinxiangxian.meituan.com/"
+  },
+  { "name": "盱眙", "alias": "xuyi", "url": "https://xuyi.meituan.com/" },
+  { "name": "徐闻", "alias": "xuwen", "url": "https://xuwen.meituan.com/" },
+  { "name": "夏邑", "alias": "xiayi", "url": "https://xiayi.meituan.com/" },
+  { "name": "浚县", "alias": "xunxian", "url": "https://xunxian.meituan.com/" },
+  { "name": "西乡", "alias": "xixiang", "url": "https://xixiang.meituan.com/" },
+  { "name": "西平", "alias": "xiping", "url": "https://xiping.meituan.com/" },
+  { "name": "新乐", "alias": "xinle", "url": "https://xinle.meituan.com/" },
+  {
+    "name": "新昌",
+    "alias": "xinchang",
+    "url": "https://xinchang.meituan.com/"
+  },
+  {
+    "name": "薛城",
+    "alias": "xuecheng",
+    "url": "https://xuecheng.meituan.com/"
+  },
+  { "name": "西华", "alias": "xihua", "url": "https://xihua.meituan.com/" },
+  { "name": "浠水", "alias": "xishui", "url": "https://xishui.meituan.com/" },
+  { "name": "香河", "alias": "xianghe", "url": "https://xianghe.meituan.com/" },
+  { "name": "信丰", "alias": "xinfeng", "url": "https://xinfeng.meituan.com/" },
+  { "name": "新蔡", "alias": "xincai", "url": "https://xincai.meituan.com/" },
+  { "name": "溆浦", "alias": "xupu", "url": "https://xupu.meituan.com/" },
+  { "name": "淅川", "alias": "xichuan", "url": "https://xichuan.meituan.com/" },
+  { "name": "新干", "alias": "xingan", "url": "https://xingan.meituan.com/" },
+  {
+    "name": "兴国县",
+    "alias": "xingguoxian",
+    "url": "https://xingguoxian.meituan.com/"
+  },
+  { "name": "新田", "alias": "xintian", "url": "https://xintian.meituan.com/" },
+  {
+    "name": "寻乌县",
+    "alias": "xunwuxian",
+    "url": "https://xunwuxian.meituan.com/"
+  },
+  {
+    "name": "祥云县",
+    "alias": "xiangyunxian",
+    "url": "https://xiangyunxian.meituan.com/"
+  },
+  {
+    "name": "襄城县",
+    "alias": "xiangchengxian",
+    "url": "https://xiangchengxian.meituan.com/"
+  },
+  { "name": "新宁", "alias": "xinning", "url": "https://xinning.meituan.com/" },
+  {
+    "name": "献县",
+    "alias": "xianxian",
+    "url": "https://xianxian.meituan.com/"
+  },
+  {
+    "name": "新洲区",
+    "alias": "xinzhouqu",
+    "url": "https://xinzhouqu.meituan.com/"
+  },
+  {
+    "name": "秀山土家族苗族自治县",
+    "alias": "xiushantujiazumi",
+    "url": "https://xiushantujiazumi.meituan.com/"
+  },
+  { "name": "新野", "alias": "xinye", "url": "https://xinye.meituan.com/" },
+  {
+    "name": "仙游县",
+    "alias": "xianyouxian",
+    "url": "https://xianyouxian.meituan.com/"
+  },
+  {
+    "name": "新津区",
+    "alias": "xinjinxian",
+    "url": "https://xinjinxian.meituan.com/"
+  },
+  {
+    "name": "旬阳市",
+    "alias": "xunyangxian",
+    "url": "https://xunyangxian.meituan.com/"
+  },
+  { "name": "夏津", "alias": "xiajin", "url": "https://xiajin.meituan.com/" },
+  {
+    "name": "新竹市",
+    "alias": "xinzhushi",
+    "url": "https://xinzhushi.meituan.com/"
+  },
+  { "name": "新北", "alias": "xinbei", "url": "https://xinbei.meituan.com/" },
+  { "name": "西塘", "alias": "xitang", "url": "https://xitang.meituan.com/" },
+  { "name": "香格里拉", "alias": "xgll", "url": "https://xgll.meituan.com/" },
+  { "name": "烟台", "alias": "yt", "url": "https://yt.meituan.com/" },
+  { "name": "扬州", "alias": "yz", "url": "https://yz.meituan.com/" },
+  {
+    "name": "银川",
+    "alias": "yinchuan",
+    "url": "https://yinchuan.meituan.com/"
+  },
+  {
+    "name": "盐城",
+    "alias": "yancheng",
+    "url": "https://yancheng.meituan.com/"
+  },
+  { "name": "岳阳", "alias": "yy", "url": "https://yy.meituan.com/" },
+  { "name": "宜昌", "alias": "yc", "url": "https://yc.meituan.com/" },
+  { "name": "营口", "alias": "yk", "url": "https://yk.meituan.com/" },
+  { "name": "宜春", "alias": "yichun", "url": "https://yichun.meituan.com/" },
+  { "name": "阳江", "alias": "yj", "url": "https://yj.meituan.com/" },
+  {
+    "name": "运城",
+    "alias": "yuncheng",
+    "url": "https://yuncheng.meituan.com/"
+  },
+  { "name": "宜宾", "alias": "yb", "url": "https://yb.meituan.com/" },
+  { "name": "榆林", "alias": "yl", "url": "https://yl.meituan.com/" },
+  { "name": "益阳", "alias": "yiyang", "url": "https://yiyang.meituan.com/" },
+  { "name": "义乌", "alias": "yiwu", "url": "https://yiwu.meituan.com/" },
+  { "name": "宜兴", "alias": "yixing", "url": "https://yixing.meituan.com/" },
+  { "name": "余姚", "alias": "yuyao", "url": "https://yuyao.meituan.com/" },
+  { "name": "乐清", "alias": "yueqing", "url": "https://yueqing.meituan.com/" },
+  { "name": "玉林", "alias": "yulin", "url": "https://yulin.meituan.com/" },
+  {
+    "name": "永州",
+    "alias": "yongzhou",
+    "url": "https://yongzhou.meituan.com/"
+  },
+  {
+    "name": "永川",
+    "alias": "yongchuan",
+    "url": "https://yongchuan.meituan.com/"
+  },
+  { "name": "云浮", "alias": "yf", "url": "https://yf.meituan.com/" },
+  { "name": "兖州", "alias": "yanzhou", "url": "https://yanzhou.meituan.com/" },
+  { "name": "鹰潭", "alias": "yingtan", "url": "https://yingtan.meituan.com/" },
+  {
+    "name": "永康",
+    "alias": "yongkang",
+    "url": "https://yongkang.meituan.com/"
+  },
+  { "name": "延边", "alias": "yanbian", "url": "https://yanbian.meituan.com/" },
+  { "name": "阳泉", "alias": "yq", "url": "https://yq.meituan.com/" },
+  { "name": "英德", "alias": "yd", "url": "https://yd.meituan.com/" },
+  { "name": "仪征", "alias": "yizheng", "url": "https://yizheng.meituan.com/" },
+  {
+    "name": "永城",
+    "alias": "yongcheng",
+    "url": "https://yongcheng.meituan.com/"
+  },
+  { "name": "禹州", "alias": "yuzhou", "url": "https://yuzhou.meituan.com/" },
+  { "name": "伊宁", "alias": "yn", "url": "https://yn.meituan.com/" },
+  { "name": "延安", "alias": "yanan", "url": "https://yanan.meituan.com/" },
+  { "name": "玉溪", "alias": "yx", "url": "https://yx.meituan.com/" },
+  { "name": "伊川", "alias": "yichuan", "url": "https://yichuan.meituan.com/" },
+  {
+    "name": "宜良县",
+    "alias": "yiliangxian",
+    "url": "https://yiliangxian.meituan.com/"
+  },
+  { "name": "偃师区", "alias": "yanshi", "url": "https://yanshi.meituan.com/" },
+  {
+    "name": "扬中",
+    "alias": "yangzhong",
+    "url": "https://yangzhong.meituan.com/"
+  },
+  {
+    "name": "玉田县",
+    "alias": "yutianxian",
+    "url": "https://yutianxian.meituan.com/"
+  },
+  { "name": "永济", "alias": "yongji", "url": "https://yongji.meituan.com/" },
+  { "name": "禹城", "alias": "yucheng", "url": "https://yucheng.meituan.com/" },
+  { "name": "盂县", "alias": "yuxian", "url": "https://yuxian.meituan.com/" },
+  {
+    "name": "阳朔",
+    "alias": "yangshuo",
+    "url": "https://yangshuo.meituan.com/"
+  },
+  { "name": "宜城", "alias": "yicheng", "url": "https://yicheng.meituan.com/" },
+  { "name": "原平", "alias": "yp", "url": "https://yp.meituan.com/" },
+  { "name": "宜都", "alias": "yidu", "url": "https://yidu.meituan.com/" },
+  {
+    "name": "永宁县",
+    "alias": "yongningxian",
+    "url": "https://yongningxian.meituan.com/"
+  },
+  { "name": "玉环市", "alias": "yh", "url": "https://yh.meituan.com/" },
+  {
+    "name": "永嘉县",
+    "alias": "yongjiaxian",
+    "url": "https://yongjiaxian.meituan.com/"
+  },
+  { "name": "雅安", "alias": "ya", "url": "https://ya.meituan.com/" },
+  {
+    "name": "永年",
+    "alias": "yongnian",
+    "url": "https://yongnian.meituan.com/"
+  },
+  {
+    "name": "阳城",
+    "alias": "yangcheng",
+    "url": "https://yangcheng.meituan.com/"
+  },
+  { "name": "云阳", "alias": "yunyang", "url": "https://yunyang.meituan.com/" },
+  { "name": "叶县", "alias": "yexian", "url": "https://yexian.meituan.com/" },
+  { "name": "易县", "alias": "yixian", "url": "https://yixian.meituan.com/" },
+  {
+    "name": "宜阳",
+    "alias": "yiyangyy",
+    "url": "https://yiyangyy.meituan.com/"
+  },
+  {
+    "name": "阎良",
+    "alias": "yanliang",
+    "url": "https://yanliang.meituan.com/"
+  },
+  {
+    "name": "原阳",
+    "alias": "yuanyang",
+    "url": "https://yuanyang.meituan.com/"
+  },
+  {
+    "name": "虞城",
+    "alias": "yuchengxian",
+    "url": "https://yuchengxian.meituan.com/"
+  },
+  { "name": "玉山", "alias": "yushan", "url": "https://yushan.meituan.com/" },
+  { "name": "阳谷", "alias": "yanggu", "url": "https://yanggu.meituan.com/" },
+  {
+    "name": "郓城",
+    "alias": "yunchengxian",
+    "url": "https://yunchengxian.meituan.com/"
+  },
+  {
+    "name": "伊金霍洛旗",
+    "alias": "yjhlq",
+    "url": "https://yjhlq.meituan.com/"
+  },
+  {
+    "name": "杨陵",
+    "alias": "yangling",
+    "url": "https://yangling.meituan.com/"
+  },
+  { "name": "沂水", "alias": "yishui", "url": "https://yishui.meituan.com/" },
+  { "name": "沂南", "alias": "yinan", "url": "https://yinan.meituan.com/" },
+  { "name": "于都", "alias": "yudu", "url": "https://yudu.meituan.com/" },
+  { "name": "宜丰", "alias": "yifeng", "url": "https://yifeng.meituan.com/" },
+  {
+    "name": "营山县",
+    "alias": "yingshanxian",
+    "url": "https://yingshanxian.meituan.com/"
+  },
+  { "name": "永安", "alias": "yongan", "url": "https://yongan.meituan.com/" },
+  { "name": "鄢陵", "alias": "yanling", "url": "https://yanling.meituan.com/" },
+  {
+    "name": "永丰",
+    "alias": "yongfeng",
+    "url": "https://yongfeng.meituan.com/"
+  },
+  { "name": "永新", "alias": "yongxin", "url": "https://yongxin.meituan.com/" },
+  {
+    "name": "永兴县",
+    "alias": "yongxingxian",
+    "url": "https://yongxingxian.meituan.com/"
+  },
+  { "name": "攸县", "alias": "youxian", "url": "https://youxian.meituan.com/" },
+  {
+    "name": "永顺县",
+    "alias": "yongshunxian",
+    "url": "https://yongshunxian.meituan.com/"
+  },
+  {
+    "name": "裕民县",
+    "alias": "yuminxian",
+    "url": "https://yuminxian.meituan.com/"
+  },
+  {
+    "name": "酉阳土家族苗族自治县",
+    "alias": "youyangtujiazumi",
+    "url": "https://youyangtujiazumi.meituan.com/"
+  },
+  {
+    "name": "应县",
+    "alias": "yingxian",
+    "url": "https://yingxian.meituan.com/"
+  },
+  {
+    "name": "阳山县",
+    "alias": "yangshanxian",
+    "url": "https://yangshanxian.meituan.com/"
+  },
+  {
+    "name": "榆树市",
+    "alias": "yushushi",
+    "url": "https://yushushi.meituan.com/"
+  },
+  {
+    "name": "沅陵县",
+    "alias": "yuanlingxian",
+    "url": "https://yuanlingxian.meituan.com/"
+  },
+  {
+    "name": "永登县",
+    "alias": "yongdengxian",
+    "url": "https://yongdengxian.meituan.com/"
+  },
+  {
+    "name": "鱼台县",
+    "alias": "yutaixian",
+    "url": "https://yutaixian.meituan.com/"
+  },
+  {
+    "name": "宜州区",
+    "alias": "yizhoushi",
+    "url": "https://yizhoushi.meituan.com/"
+  },
+  {
+    "name": "义马市",
+    "alias": "yimashi",
+    "url": "https://yimashi.meituan.com/"
+  },
+  {
+    "name": "沅江",
+    "alias": "yuanjiang",
+    "url": "https://yuanjiang.meituan.com/"
+  },
+  { "name": "宜兰", "alias": "yilan", "url": "https://yilan.meituan.com/" },
+  { "name": "伊犁", "alias": "yili", "url": "https://yili.meituan.com/" },
+  { "name": "玉树", "alias": "ys", "url": "https://ys.meituan.com/" },
+  { "name": "伊春", "alias": "yich", "url": "https://yich.meituan.com/" },
+  { "name": "郑州", "alias": "zz", "url": "https://zz.meituan.com/" },
+  { "name": "淄博", "alias": "zb", "url": "https://zb.meituan.com/" },
+  { "name": "中山", "alias": "zs", "url": "https://zs.meituan.com/" },
+  {
+    "name": "湛江",
+    "alias": "zhanjiang",
+    "url": "https://zhanjiang.meituan.com/"
+  },
+  { "name": "镇江", "alias": "zj", "url": "https://zj.meituan.com/" },
+  { "name": "株洲", "alias": "zhuzhou", "url": "https://zhuzhou.meituan.com/" },
+  { "name": "珠海", "alias": "zh", "url": "https://zh.meituan.com/" },
+  {
+    "name": "枣庄",
+    "alias": "zaozhuang",
+    "url": "https://zaozhuang.meituan.com/"
+  },
+  {
+    "name": "漳州",
+    "alias": "zhangzhou",
+    "url": "https://zhangzhou.meituan.com/"
+  },
+  { "name": "驻马店", "alias": "zmd", "url": "https://zmd.meituan.com/" },
+  {
+    "name": "舟山",
+    "alias": "zhoushan",
+    "url": "https://zhoushan.meituan.com/"
+  },
+  { "name": "张家口", "alias": "zjk", "url": "https://zjk.meituan.com/" },
+  { "name": "肇庆", "alias": "zq", "url": "https://zq.meituan.com/" },
+  { "name": "遵义", "alias": "zunyi", "url": "https://zunyi.meituan.com/" },
+  { "name": "张家港", "alias": "zjg", "url": "https://zjg.meituan.com/" },
+  { "name": "诸暨", "alias": "zhuji", "url": "https://zhuji.meituan.com/" },
+  { "name": "周口", "alias": "zk", "url": "https://zk.meituan.com/" },
+  {
+    "name": "诸城",
+    "alias": "zhucheng",
+    "url": "https://zhucheng.meituan.com/"
+  },
+  { "name": "昭通", "alias": "zt", "url": "https://zt.meituan.com/" },
+  { "name": "张掖", "alias": "zhangye", "url": "https://zhangye.meituan.com/" },
+  {
+    "name": "邹城",
+    "alias": "zoucheng",
+    "url": "https://zoucheng.meituan.com/"
+  },
+  { "name": "张家界", "alias": "zjj", "url": "https://zjj.meituan.com/" },
+  {
+    "name": "涿州",
+    "alias": "zhuozhou",
+    "url": "https://zhuozhou.meituan.com/"
+  },
+  {
+    "name": "章丘区",
+    "alias": "zhangqiu",
+    "url": "https://zhangqiu.meituan.com/"
+  },
+  { "name": "自贡", "alias": "zg", "url": "https://zg.meituan.com/" },
+  { "name": "枣阳", "alias": "zaoyang", "url": "https://zaoyang.meituan.com/" },
+  { "name": "遵化", "alias": "zunhua", "url": "https://zunhua.meituan.com/" },
+  { "name": "资阳", "alias": "zy", "url": "https://zy.meituan.com/" },
+  {
+    "name": "庄河",
+    "alias": "zhuanghe",
+    "url": "https://zhuanghe.meituan.com/"
+  },
+  {
+    "name": "招远",
+    "alias": "zhaoyuan",
+    "url": "https://zhaoyuan.meituan.com/"
+  },
+  {
+    "name": "准格尔旗",
+    "alias": "zhungeerqi",
+    "url": "https://zhungeerqi.meituan.com/"
+  },
+  { "name": "邹平", "alias": "zp", "url": "https://zp.meituan.com/" },
+  {
+    "name": "镇雄县",
+    "alias": "zhenxiongxian",
+    "url": "https://zhenxiongxian.meituan.com/"
+  },
+  {
+    "name": "枝江",
+    "alias": "zhijiang",
+    "url": "https://zhijiang.meituan.com/"
+  },
+  { "name": "漳浦", "alias": "zhangpu", "url": "https://zhangpu.meituan.com/" },
+  {
+    "name": "樟树",
+    "alias": "zhangshu",
+    "url": "https://zhangshu.meituan.com/"
+  },
+  {
+    "name": "中江县",
+    "alias": "zhongjiangxian",
+    "url": "https://zhongjiangxian.meituan.com/"
+  },
+  {
+    "name": "正定",
+    "alias": "zhengding",
+    "url": "https://zhengding.meituan.com/"
+  },
+  {
+    "name": "中牟",
+    "alias": "zhongmou",
+    "url": "https://zhongmou.meituan.com/"
+  },
+  { "name": "中卫", "alias": "zw", "url": "https://zw.meituan.com/" },
+  {
+    "name": "赵县",
+    "alias": "zhaoxian",
+    "url": "https://zhaoxian.meituan.com/"
+  },
+  {
+    "name": "柘城",
+    "alias": "zhecheng",
+    "url": "https://zhecheng.meituan.com/"
+  },
+  { "name": "钟祥", "alias": "zx", "url": "https://zx.meituan.com/" },
+  { "name": "周至", "alias": "zhouzhi", "url": "https://zhouzhi.meituan.com/" },
+  {
+    "name": "芷江",
+    "alias": "zhijiangtongzu",
+    "url": "https://zhijiangtongzu.meituan.com/"
+  },
+  { "name": "织金", "alias": "zhijin", "url": "https://zhijin.meituan.com/" },
+  {
+    "name": "漳平",
+    "alias": "zhangping",
+    "url": "https://zhangping.meituan.com/"
+  },
+  {
+    "name": "资兴市",
+    "alias": "zixingshi",
+    "url": "https://zixingshi.meituan.com/"
+  },
+  {
+    "name": "扎兰屯市",
+    "alias": "zhalantunshi",
+    "url": "https://zhalantunshi.meituan.com/"
+  },
+  {
+    "name": "忠县",
+    "alias": "zhongxian",
+    "url": "https://zhongxian.meituan.com/"
+  },
+  { "name": "柘荣", "alias": "zherong", "url": "https://zherong.meituan.com/" },
+  {
+    "name": "中宁县",
+    "alias": "zhongningxian",
+    "url": "https://zhongningxian.meituan.com/"
+  },
+  {
+    "name": "彰化",
+    "alias": "zhanghua",
+    "url": "https://zhanghua.meituan.com/"
+  },
+  {
+    "name": "周庄",
+    "alias": "zhouzhuang",
+    "url": "https://zhouzhuang.meituan.com/"
+  }
+]

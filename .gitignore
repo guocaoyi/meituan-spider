@@ -1,0 +1,23 @@
+# OS 
+.DS_Store
+
+# ignore node dependency directories & lock
+node_modules
+package-lock.json
+
+# ignore log files and local
+*.log
+*.local
+
+# ignore compiled files
+dist
+build
+output
+
+# ignore ide settings
+.idea
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.vscode

@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "ignore": ["node_modules", "*.test.js", "build/__tests__", "src"],
+  "execMap": {
+    "js": "pm2 node --harmony"
+  }
+}
