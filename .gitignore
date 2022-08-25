@@ -1,5 +1,6 @@
-# OS 
+# OS  & ide
 .DS_Store
+.idea
 
 # ignore node dependency directories & lock
 node_modules
@@ -12,10 +13,7 @@ package-lock.json
 # ignore compiled files
 dist
 build
-output
-
-# ignore ide settings
-.idea
+*/__tests__
 
 # track these files, if they exist
 !.gitignore

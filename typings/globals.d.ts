@@ -1,4 +1,36 @@
-type Status =
+declare interface Region {
+  /** 省行政编号 */
+  provinceId?: number;
+  /** 省名称 */
+  province: string;
+  /** 市行政编号 */
+  cityId?: number;
+  /** 市名称 */
+  city: string;
+  /** 区县行政编号 */
+  areaId?: number;
+  /** 区县名称 */
+  area: string;
+  /** 街道乡镇行政编号 */
+  streetId: number;
+  /** 街道乡镇名称 */
+  street: string;
+
+  /** 行政编号 */
+  regionId: '321023';
+
+  /** 详细地址 */
+  address: string;
+  /** 详细地址(包含四级地址) */
+  detail: string;
+
+  /** 纬度 */
+  lat: string | number;
+  /** 经度 */
+  lng: string | number;
+}
+
+declare type Status =
   | /** 正常 */ 0
   | /** 服务器内部错误 */ 1
   | /** 请求参数非法 */ 2
@@ -10,14 +42,14 @@ type Status =
   | /** 无权限 */ `${2}${number}`
   | /** 配额错误 */ `${3}${number}`;
 
-interface Location {
+declare interface Location {
   /** 纬度值 */
   lng: number;
   /** 经度值 */
   lat: number;
 }
 
-export namespace Geocoding {
+declare namespace Geocoding {
   export interface Region {
     /** 经纬度坐标 */
     location: Location;
@@ -61,7 +93,7 @@ export namespace Geocoding {
   }
 }
 
-export namespace GeocodingAbroad {
+declare namespace GeocodingAbroad {
   export interface Query {
     /** 根据经纬度坐标获取地址 */
     location: `${number},${number}`;
@@ -187,23 +219,64 @@ export namespace GeocodingAbroad {
   }
 }
 
-/**
- * 地址查询（坐标与地址间的相互转换）
- * HACK:
- */
-export class Geocoder {
-  /** 百度开放平台应用编号 */
-  private readonly appId = 111111;
-  /** 百度开放平台应用密码 */
-  private readonly appKey = 'xxxxxx';
+interface Result {
+  data?: NonNullable<any>;
+  message?: string;
+  code?: 0 | 1 | 2 | 3 | 4 | 5;
+}
 
-  /**
-   * @see https://lbsyun.baidu.com/index.php?title=webapi/guide/webservice-geocoding
-   */
-  poi2Region(poi: string = '') {}
+interface GeoPOI {
+  /** 经度 */
+  lat?: string | number;
+  /** 维度 */
+  lng?: string | number;
+  geotype?: 1 | 2;
+  /** 兴趣点 */
+  poi?: string;
+}
 
-  /**
-   * @see https://lbsyun.baidu.com/index.php?title=webapi/guide/webservice-geocoding-abroad
-   */
-  geo2Region() {}
+interface PickedPOI {
+  /** 经度 */
+  lat?: string | number;
+  /** 维度 */
+  lng?: string | number;
+  geotype?: 1 | 2;
+  /** 兴趣点 */
+  poi?: string;
+  /** 地址（行政街道门牌） */
+  address?: string;
+}
+
+interface SelectedAddr {
+  address?: string;
+  addressId?: string;
+  addressType?: string;
+  gender?: string;
+  geotype?: 1 | 2;
+  lat?: string | number;
+  lng?: string | number;
+  name?: string;
+  phone?: string;
+  poi?: string;
+}
+
+interface Poi {
+  address?: string;
+  addressName?: string;
+  geoPOI: GeoPOI;
+  geotype: 1 | 2;
+  /** 初始化纬度 */
+  initialLat: string | number;
+  /** 初始化经度 */
+  initialLng: string | number;
+  /** 纬度 */
+  lat: string | number;
+  /** 经度 */
+  lng: string | number;
+
+  /** 选择地址 */
+  pickedPOI: PickedPOI;
+
+  /** 选择地址 */
+  selectedAddr?: SelectedAddr;
 }

@@ -58,7 +58,7 @@ const city = await page.evaluate(() => {
   const container = document.getElementsByClassName('alphabet-city-area')[0];
   const nodes = container.getElementsByClassName('link city');
   for (let node of nodes) {
-    let cityInfo = { name: '', alias: '', alpha: 'a', url: '' };
+    let cityInfo = { name: '', alias: '', url: '' };
     let cityAlpha = node.parentElement.parentElement.id ?? 'city-A';
     let uri = node.href;
     cityInfo.name = node.innerHTML;
@@ -81,7 +81,7 @@ await page.goto(uri);
 await page.waitFor(3000);
 const filters = await page.evaluate(() => {
   const city = [];
-  return window._appStore.filters;
+  return window._appState.filters;
 });
 
 const { areas } = filters;

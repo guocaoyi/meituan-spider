@@ -88,26 +88,19 @@
 ## 服务
 
 > 本服务类型为脚本服务，仅一个 Node 服务且在执行任务时运行
-> 内置： Web Wrapper（puppeteer）、队列（node-queue）、集群（cluster）、进程监控（pm2）
+> 内置： Web Wrapper（puppeteer）、队列（node-queue）、集群（cluster）
 
 ### 环境
 
-- 美团账号（meituan.com） x N
-- 接码平台
-- 百度地图开放平台账号（lbs.baidu.com）
-  - appId: 00000000
-  - appKey: lllllllllllll
-- 主机一台: CVM 2C4G 做验证使用（新加坡）；VPS 4C4G 做生产使用（香港 、 新加坡）
-- 网络 IP x N
-
-### 部署架构
-
-- 服务节点
-  - Node Server x 1 （服务进程）
-
-### 表现
-
-Street POI 100 个，店铺 100 \* 20 个（8000 个商品信息）；耗时 < 180 s、内存消耗 < 500Mb
+- Account x N
+- Phone Number（可用个人手机替代；接码业务在大陆境内为非法业务）
+  - tel: 130xxxxxxxx
+- LBS（[lbs.baidu.com](https://lbs.baidu.com/)）
+  - appId: xxxxxxxx
+  - appKey: xxxxxxxx
+- Host: Linux 2C4G x 1
+- Node: 14.18.0+
+- Proxy IP x N
 
 ## 遗留
 

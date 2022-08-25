@@ -1,3 +1,11 @@
+const env = {
+  // phone number
+  tel: 13000000000,
+
+  // proxy ip server
+  proxy: '0.0.0.0',
+};
+
 /**
  * 通过地址查询附近店铺信息
  * @query {string} poi 地址（详细地址：市区 + 街道乡镇 + 详细地址）
@@ -31,5 +39,3 @@ export const degeoAddress = async () => {};
  * @query {number} lng 经度
  */
 export const degeoPoint = async () => {};
-
-const handle = () => {};

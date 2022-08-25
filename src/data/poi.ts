@@ -26,11 +26,3 @@ interface City {
  * @date 2022.08.10 16:49:00
  */
 export const cities = JSON.parse(citiesStr) as City[];
-
-/**
- * d
- */
-export const regions = () => {
-  let x = './poi';
-  import(x).then(({ pois }: any) => {});
-};

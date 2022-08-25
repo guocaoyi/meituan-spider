@@ -10,13 +10,14 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "cheerio": "^1.0.0-rc.12",
     "puppeteer": "^15.5.0",
-    "queue": "^6.0.2"
+    "queue": "^6.0.2",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@types/uuid": "^8.3.4",
     "concurrently": "^7.3.0",
-    "nodemon": "^2.0.19",
-    "pm2": "^5.2.0"
+    "nodemon": "^2.0.19"
   }
 }

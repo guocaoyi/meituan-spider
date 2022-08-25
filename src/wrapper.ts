@@ -1,24 +1,61 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import puppeteer from 'puppeteer';
-import * as cluster from 'cluster';
 
-import { sleep } from './utils';
-import { Poi, GeoPOI, PickedPOI } from './types';
+import host from './data/uri';
 
 import type { Browser, Protocol } from 'puppeteer';
+
+let browser: Browser;
+const options = {
+  headless: false,
+  slowMo: 250,
+  defaultViewport: {
+    width: 1000,
+    height: 800,
+  },
+};
+
+/**
+ * @param {number} ms 毫秒
+ */
+const sleep = async (ms: number) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+};
+
+/**
+ * 模拟器（Puppeteer Browser）
+ */
+export class simulator {
+  private browser?: Browser;
+
+  /** 启动浏览器 */
+  public async launch() {
+    let browser = await puppeteer.launch();
+    this.browser = browser;
+  }
+}
+
+/**
+ * 每个
+ */
+export const scrollPage = () => {
+  window.scrollTo(0, document.body.scrollHeight);
+};
 
 /**
  * 扫描器（访问页面、设置定位、获取页面内容）
  */
-export class Wrapper {
-  /** 美团外卖首页 */
-  readonly #waimaiHomePage = 'https://h5.waimai.meituan.com/waimai/mindex/home';
-  /** 美团外卖页 */
-  readonly #waimaiPage = 'https://h5.waimai.meituan.com/waimai/mindex/kingkong';
-  /** 美团外卖店铺页 */
-  readonly #shopPage =
-    'https://h5.waimai.meituan.com/waimai/mindex/menu?mtShopId=';
+class Wrapper {
+  // /** 美团外卖首页 */
+  // readonly #waimaiHomePage = 'https://h5.waimai.meituan.com/waimai/mindex/home';
+  // /** 美团外卖页 */
+  // readonly #waimaiPage = 'https://h5.waimai.meituan.com/waimai/mindex/kingkong';
+  // /** 美团外卖店铺页 */
+  // readonly #shopPage =
+  //   'https://h5.waimai.meituan.com/waimai/mindex/menu?mtShopId=';
 
   private browser?: Browser;
 
@@ -47,37 +84,51 @@ export class Wrapper {
     const page = await this.browser!.newPage();
     await page.setViewport({ width: 390, height: 844 * 2 });
 
-    page.setCookie();
+    page.setRequestInterception(true);
+    page.on('response', (response) => {
+      let url = response.url();
+      if (/shopList/gi.test(url)) {
+        response?.json?.()?.then((data) => {
+          console.info('data', data);
+        });
+      }
+    });
 
     const cookies = await page.cookies();
 
     // 访问页面
     await page.goto(
-      `${this.#waimaiPage}?navigateType=19&index=3&resource_id=10638`,
+      `${host.meituan.waimai}?navigateType=19&index=3&resource_id=10638`,
       {
         waitUntil: 'networkidle2',
       }
     );
 
     // 修改定位
-    const poi = new Poi();
-    poi.lat = opt.lat;
-    poi.lng = opt.lng;
-    poi.address = opt.address;
-    poi.addressName = opt.address;
-    const geoPOI = new GeoPOI();
-    geoPOI.lat = opt.lat;
-    geoPOI.lng = opt.lng;
-    geoPOI.poi = opt.address;
-    poi.geoPOI = geoPOI;
-    const pickedPOI = new PickedPOI();
-    pickedPOI.lat = opt.lat;
-    pickedPOI.lng = opt.lng;
-    pickedPOI.poi = opt.address;
-    pickedPOI.address = opt.address;
-    poi.pickedPOI = pickedPOI;
+    const poi = {
+      address: opt.address,
+      addressName: opt.address,
+      geoPOI: {
+        lat: opt.lat,
+        lng: opt.lng,
+        geotype: 2,
+        poi: opt.address,
+      },
+      geotype: 2,
+      initialLat: opt.lat,
+      initialLng: opt.lng,
+      lat: opt.lat,
+      lng: opt.lng,
+      pickedPOI: {
+        lat: opt.lat,
+        lng: opt.lng,
+        geotype: 2,
+        poi: opt.address,
+        address: opt.address,
+      },
+    };
 
-    let res = await page.evaluate((poi) => {
+    const res = await page.evaluate((poi) => {
       localStorage.setItem('param', JSON.stringify(poi));
 
       // 选择排序（打开排序面板）
@@ -115,9 +166,6 @@ export class Wrapper {
         encoding: 'utf-8',
       }
     );
-
-    // 解析地址
-
     return res;
   }
 
