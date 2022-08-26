@@ -19,8 +19,3 @@ export const pois = () => {
   }
   return city;
 };
-
-/**
- * @sign true
- */
-export const pp = () => {};
