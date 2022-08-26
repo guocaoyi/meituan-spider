@@ -38,10 +38,23 @@ export class simulator {
   }
 }
 
+interface ScrollOpt {
+  /** 页数 @default 1 */
+  pageNum: number;
+  /** scroll 次数 */
+  limit: number;
+  /** 单次滚动时间 @default 2 (s) */
+  singletonTime: number;
+  /** scroll rerender 总时长 */
+  timeout: number;
+}
+
 /**
- * 每个
+ * 每个点位拉 5 - 10 个分页
  */
-export const scrollPage = () => {
+export const scrollPage = (data: ScrollOpt) => {
+  // 每次滚动刷新预留 2 - 5 秒的时间
+  setTimeout(() => {}, data.pageNum * 2 * 1000);
   window.scrollTo(0, document.body.scrollHeight);
 };
 
@@ -84,6 +97,9 @@ class Wrapper {
     const page = await this.browser!.newPage();
     await page.setViewport({ width: 390, height: 844 * 2 });
 
+    // window handle
+    const windowHandle = await page.evaluateHandle(() => window);
+
     page.setRequestInterception(true);
     page.on('response', (response) => {
       let url = response.url();
@@ -98,7 +114,7 @@ class Wrapper {
 
     // 访问页面
     await page.goto(
-      `${host.meituan.waimai}?navigateType=19&index=3&resource_id=10638`,
+      `${meituan.waimai}?navigateType=19&index=3&resource_id=10638`,
       {
         waitUntil: 'networkidle2',
       }

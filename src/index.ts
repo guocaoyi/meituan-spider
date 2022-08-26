@@ -1,3 +1,5 @@
+import * as process from 'process';
+
 const env = {
   // phone number
   tel: 13000000000,
