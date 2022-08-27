@@ -1,14 +1,18 @@
 {
-  "name": "crawler-study",
+  "name": "meituan-reptile-study",
   "private": true,
-  "version": "0.0.1",
-  "main": "./build/app.js",
+  "main": "./build/cli.js",
+  "bin": {
+    "meituan-reptile-study": "./build/cli.js",
+    "reptile": "./build/cli.js"
+  },
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon\"",
     "build": "rm -rf build && tsc",
     "start": "nodemon"
   },
   "dependencies": {
+    "debug": "^4.3.4",
     "puppeteer": "^15.5.0",
     "queue": "^6.0.2",
     "uuid": "^8.3.2"

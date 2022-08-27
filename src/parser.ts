@@ -10,7 +10,6 @@ export const cities = () => {
     const nodes = container.getElementsByClassName('link city') as any;
     for (let node of nodes) {
       let cityInfo = { name: '', alias: '', url: '' };
-      let cityAlpha = node.parentElement.parentElement.id ?? 'city-A';
       let uri = node.href;
       cityInfo.name = node.innerHTML;
       cityInfo.alias = uri
@@ -20,7 +19,7 @@ export const cities = () => {
       city.push(cityInfo);
     }
   } catch (error) {
-    console.error('x');
+    console.error(error);
   } finally {
     return city;
   }
@@ -47,4 +46,23 @@ export const pois = () => {
     city.push(cityInfo);
   }
   return city;
+};
+
+/**
+ * sms
+ */
+export const sms = (phone: string) => {
+  // phone num
+  document.getElementById('login-mobile')?.setAttribute('value', phone);
+  document.getElementsByName('commit')[1].click(); // send sms
+
+  document.getElementById('J-verify-btn')?.click(); // check user protocol
+  document.getElementById('user-input-checked')?.click(); // commit
+};
+
+/**
+ * stores
+ */
+export const stores = () => {
+  document.getElementById('poilist-item-info');
 };
