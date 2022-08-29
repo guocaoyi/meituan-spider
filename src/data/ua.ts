@@ -30,6 +30,7 @@ const userAgents = [
 ];
 
 export default {
+  /** 随机 UA */
   get ua() {
     return userAgents[parseInt(`${Math.random() * userAgents.length}`, 10)];
   },

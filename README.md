@@ -3,7 +3,6 @@
 > 彼窃钩者诛，窃国者为诸侯 --《庄子·胠箧》
 
 - 本项目（代码）仅供学习交流，请勿将数据以任何方式、任何形式、直接或者间接地（脱敏、清洗、解析）商用。
-  > > > > > > > 460129813233a51e4ffade139ca0e08ba3049d44
 - 本项目（代码）仅供学习交流，请勿将数据转给第三方盈利。
 
 ## 预览
@@ -55,9 +54,11 @@ $ sms xxxxxx # contining
 # opttion descriptions
 examine the history and state (see also: git help revisions)
    pagenum            pageNum, pageSize = 20
-   limit              Sh
-   singletonTime      singleton time gap
-   timeout            task timeout
+   limit              limit
+   singletonTime      单次任务用时，default = 1s
+   timeout            of timeout task
+
+   sort               0-8
 
 ```
 
@@ -134,9 +135,6 @@ examine the history and state (see also: git help revisions)
 - Account x N
 - Phone Number（可用个人手机替代；接码业务在大陆境内为非法业务）
   - tel: 130xxxxxxxx
-- LBS（[lbs.baidu.com](https://lbs.baidu.com/)）
-  - appId: xxxxxxxx
-  - appKey: xxxxxxxx
 - Host: Linux 2C4G x 1
 - Node: 14.18.0+
 - Proxy IP x N
@@ -154,7 +152,7 @@ examine the history and state (see also: git help revisions)
 ├── pois
 │   ├── xxxx.json #
 │   ...
-└── stores
+└── shops
     ├── xx市xxx区xx街道_wm_td.json # 单次任务爬完的数据结果（POI附近的店铺）
     ...
 ```
@@ -187,7 +185,7 @@ examine the history and state (see also: git help revisions)
 
 ### 4.4 POI 分布
 
-以美团「南京 > 鼓楼区」为例；可以看到 POI 的分布不是均匀的，距离间隔在 0.5 - 2 公里不等；所以在搜索店铺时，需要按照距离进行筛选
+以美团「南京 > 鼓楼区」为例；可以看到 POI 的分布不是均匀的，距离间隔在 0.2 - 1 公里不等；所以在搜索店铺时，需要按照距离进行筛选
 ![nj-gulou-pois](./docs/nj-gulou-pois.png)
 
 ## 5. 性能

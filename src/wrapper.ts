@@ -1,29 +1,29 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import * as cp from 'child_process';
+import * as cluster from 'cluster';
+
+import debug from 'debug';
 import puppeteer from 'puppeteer';
 
-import host from './data/uri';
+import uris from './data/uri';
 
 import type { Browser, Protocol } from 'puppeteer';
+import type { ScrollOpt } from './types';
 
-let browser: Browser;
-const options = {
-  headless: false,
-  slowMo: 250,
-  defaultViewport: {
-    width: 1000,
-    height: 800,
-  },
-};
+const logger = debug('WRAP');
 
 /**
+ * wait
  * @param {number} ms 毫秒
  */
-const sleep = async (ms: number) => {
-  return new Promise((resolve) => {
-    setTimeout(resolve, ms);
+const sleep = async (ms: number): Promise<void> =>
+  new Promise((resolve) => {
+    let timer = setTimeout(() => {
+      clearTimeout(timer);
+      resolve();
+    }, ms);
   });
-};
 
 /**
  * 模拟器（Puppeteer Browser）
@@ -38,17 +38,6 @@ export class simulator {
   }
 }
 
-interface ScrollOpt {
-  /** 页数 @default 1 */
-  pageNum: number;
-  /** scroll 次数 */
-  limit: number;
-  /** 单次滚动间隔时间 @default 2 (s) */
-  singletonTime: number;
-  /** scroll rerender 总时长 */
-  timeout: number;
-}
-
 /**
  * 每个点位拉 5 - 10 个分页
  */
@@ -61,15 +50,7 @@ export const scrollPage = (data: ScrollOpt) => {
 /**
  * 扫描器（访问页面、设置定位、获取页面内容）
  */
-class Wrapper {
-  // /** 美团外卖首页 */
-  // readonly #waimaiHomePage = 'https://h5.waimai.meituan.com/waimai/mindex/home';
-  // /** 美团外卖页 */
-  // readonly #waimaiPage = 'https://h5.waimai.meituan.com/waimai/mindex/kingkong';
-  // /** 美团外卖店铺页 */
-  // readonly #shopPage =
-  //   'https://h5.waimai.meituan.com/waimai/mindex/menu?mtShopId=';
-
+export class Wrapper {
   private browser?: Browser;
 
   /** 启动浏览器 */
@@ -105,22 +86,20 @@ class Wrapper {
       let url = response.url();
       if (/shopList/gi.test(url)) {
         response?.json?.()?.then((data) => {
-          console.info('data', data);
+          logger('INFO:', data);
         });
       }
     });
 
+    // cookies
     const cookies = await page.cookies();
 
     // 访问页面
-    await page.goto(
-      `${meituan.waimai}?navigateType=19&index=3&resource_id=10638`,
-      {
-        waitUntil: 'networkidle2',
-      }
-    );
+    await page.goto(`${uris.h5}?navigateType=19&index=3&resource_id=10638`, {
+      waitUntil: 'networkidle2',
+    });
 
-    // 修改定位
+    // 修改定位（美团可以通过主动搜索点击，也可以通过修改 session 来篡改定位）
     const poi = {
       address: opt.address,
       addressName: opt.address,

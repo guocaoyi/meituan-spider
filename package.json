@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon\"",
-    "build": "rm -rf build && tsc",
+    "build": "rm -rf build && tsc && cp -aclpsvXx src/**/*.json ./build",
     "start": "nodemon"
   },
   "dependencies": {
@@ -18,8 +18,9 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@types/debug": "^4.1.7",
     "@types/node": "^16.11.7",
-    "@types/uuid": "^8.3.4",
+    "@types/uuid": "^8.3 .4",
     "concurrently": "^7.3.0",
     "nodemon": "^2.0.19",
     "typescript": "^4.8.2"
