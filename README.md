@@ -2,7 +2,7 @@
 
 > 彼窃钩者诛，窃国者为诸侯 --《庄子·胠箧》
 
-- 本项目（代码）仅供学习交流，请勿将数据以任何方式、任何形式、直接的或者间接的（脱敏、清洗、解析）方式商用。
+- 本项目（代码）仅供学习交流，请勿将数据以任何方式、任何形式、直接或者间接地（脱敏、清洗、解析）商用。
 - 本项目（代码）仅供学习交流，请勿将数据转给第三方盈利。
 
 ## 预览
@@ -53,9 +53,10 @@ $ sms xxxxxx # contining
 ```bash
 # opttion descriptions
 examine the history and state (see also: git help revisions)
-   bisect            Us
-   diff              Sh
-   status            Show
+   pagenum            pageNum, pageSize = 20
+   limit              Sh
+   singletonTime      singleton time gap
+   timeout            task timeout
 
 ```
 

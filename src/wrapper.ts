@@ -43,7 +43,7 @@ interface ScrollOpt {
   pageNum: number;
   /** scroll 次数 */
   limit: number;
-  /** 单次滚动时间 @default 2 (s) */
+  /** 单次滚动间隔时间 @default 2 (s) */
   singletonTime: number;
   /** scroll rerender 总时长 */
   timeout: number;
