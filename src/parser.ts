@@ -5,8 +5,7 @@ const logger = debug('PARSER');
 
 /**
  * 获取城市
- * @description 这次已经前置处理，并同 china region 合并处理；过滤了一些非真实、港台、兵团的城市
- * @see https://www.meituan.com/changecity
+ * @description 这次已经前置处理，并同 chi
  */
 export const cities = () => {
   const city = [];
@@ -32,11 +31,10 @@ export const cities = () => {
 
 /**
  * 获取 POI 列表
- * @see https://nj.meituan.com/meishi/
  */
 export const pois = () => {
   //@ts-ignore
-  return window._appStore;
+  return window._appState;
 };
 
 /**
@@ -53,7 +51,6 @@ export const pcSms = () => {
 
 /**
  * 短信验证码
- * @see https://nj.meituan.com/meishi/
  */
 export const sms = (phone: string) => {
   // phone num
@@ -66,7 +63,6 @@ export const sms = (phone: string) => {
 
 /**
  * 短信验证码（PC）
- * @see https://nj.meituan.com/meishi/
  */
 export const pcsms = (phone: string) => {
   // phone num
@@ -79,7 +75,6 @@ export const pcsms = (phone: string) => {
 
 /**
  * 获取店铺列表数据
- * @see https://nj.meituan.com/meishi/
  */
 export const shops = () => {
   document.getElementById('poilist-item-info');
@@ -87,7 +82,6 @@ export const shops = () => {
 
 /**
  * 商品信息（店铺内）
- * @see https://nj.meituan.com/meishi/
  */
 export const goods = () => {
   //
@@ -96,7 +90,6 @@ export const goods = () => {
 /**
  * 排序（综合、销量、距离、速度、评分、起送价、配送费、人均高到低、人均低到高）
  * @param {ShopSortEnum} sort 排序
- * @see https://h5.waimai.meituan.com/waimai/mindex/kingkong
  */
 export const sortByDis = (sort: ShopSortEnum = ShopSortEnum.nomal) => {
   // 选择排序（打开排序面板）
@@ -113,5 +106,5 @@ export const fileterAreas = () => {
     // 全部、全区、全镇、全县
   });
 
-  // 数据修正逻辑，如果 subareas 只有一个且为「全部」则，不反悔 sub
+  // 数据修正逻辑，如果 subareas 只有一个且为「全部」则，不返回 sub
 };

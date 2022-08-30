@@ -1,5 +1,5 @@
 // h5 host
-const h5 = {
+export const h5 = {
   /** 首页 */
   home: 'https://i.meituan.com',
 
@@ -27,16 +27,14 @@ const h5 = {
 };
 
 // pc host
-const pc = {
+export const pc = {
   /** 美团外卖首页 */
   home: 'https://meituan.com',
 
   /** 美团登录 */
   login: 'https://passport.meituan.com/account/unitivelogin',
 
-  /**
-   * 美团会员登录（优先使用）
-   */
+  /** 美团会员登录（优先使用） */
   userLogin: 'https://passport.meituan.com/useraccount/login',
 
   /** 美团选择城市页 */

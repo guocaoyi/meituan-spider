@@ -13,7 +13,7 @@ package-lock.json
 # ignore compiled files
 dist
 build
-*/__tests__
+
 
 # track these files, if they exist
 !.gitignore

@@ -8,10 +8,11 @@
   },
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon\"",
-    "build": "rm -rf build && tsc && cp -aclpsvXx src/**/*.json ./build",
+    "build": "rm -rf lib && tsc && cp src/**/*.json ./build/data",
     "start": "nodemon"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "debug": "^4.3.4",
     "puppeteer": "^15.5.0",
     "queue": "^6.0.2",
