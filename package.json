@@ -8,10 +8,12 @@
   },
   "scripts": {
     "dev": "concurrently \"tsc -w\" \"nodemon\"",
-    "build": "rm -rf lib && tsc && cp src/**/*.json ./build/data",
-    "start": "nodemon"
+    "build": "rm -rf lib && tsc",
+    "start": "nodemon",
+    "test": ""
   },
   "dependencies": {
+    "args": "^5.0.3",
     "cheerio": "^1.0.0-rc.12",
     "debug": "^4.3.4",
     "puppeteer": "^15.5.0",
@@ -19,10 +21,16 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-typescript": "^7.18.6",
     "@types/debug": "^4.1.7",
+    "@types/jest": "^29.0.0",
     "@types/node": "^16.11.7",
     "@types/uuid": "^8.3 .4",
+    "babel-jest": "^29.0.1",
     "concurrently": "^7.3.0",
+    "jest": "^29.0.1",
     "nodemon": "^2.0.19",
     "typescript": "^4.8.2"
   }

@@ -43,50 +43,13 @@ export enum MeishiEnum {
   xc = '小吃馆',
 }
 
-export interface env {
+export const env = {
   /** phone number */
-  tel: number
+  tel: '',
 
   /**
    * proxy ip server
    * @default 0.0.0.0
    */
-  proxy: string
-}
-
-/** scroll options */
-export interface ScrollOpt {
-  /** 页数 */
-  pageNum: number
-
-  /** scroll 次数 */
-  limit: number
-
-  /** 单次滚动间隔时间 */
-  singletonTime: number
-
-  /** scroll rerender 总时长 */
-  timeout: number
-}
-
-/** meituan cities */
-export interface City {
-  /** 城市名称 */
-  name: string
-  /** 城市拼音（简拼 或 全拼） */
-  alias: string
-
-  /** 城市名称 */
-  region: string
-  /** 行政编号 */
-  regionId: string
-  /** 行政级别 */
-  regionType: 'province' | 'city' | 'area'
-  /** 所在省 */
-  province: string
-  /** 所在市 */
-  city: string
-
-  /** 城市主页 */
-  url: string
+  proxy: '',
 }

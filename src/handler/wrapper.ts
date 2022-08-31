@@ -1,103 +1,74 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import * as cp from 'child_process';
-import * as cluster from 'cluster';
+import fs from 'node:fs'
+import path from 'node:path'
+import cp from 'node:child_process'
+import cluster from 'node:cluster'
+import debug from 'debug'
+import puppeteer from 'puppeteer'
+import { EventEmitter } from 'node:events'
 
-import debug from 'debug';
-import puppeteer from 'puppeteer';
+import uris from '../constant/uri'
+import { sleep } from '../utils'
 
-import uris from './data/uri';
+import type { Browser, Protocol } from 'puppeteer'
+import type { ScrollOpt } from '../types'
 
-import type { Browser, Protocol } from 'puppeteer';
-import type { ScrollOpt } from './types';
-
-const logger = debug('WRAP');
-
-/**
- * wait
- * @param {number} ms 毫秒
- */
-const sleep = async (ms: number): Promise<void> =>
-  new Promise((resolve) => {
-    let timer = setTimeout(() => {
-      clearTimeout(timer);
-      resolve();
-    }, ms);
-  });
-
-/**
- * 模拟器（Puppeteer Browser）
- */
-export class simulator {
-  private browser?: Browser;
-
-  /** 启动浏览器 */
-  public async launch() {
-    let browser = await puppeteer.launch();
-    this.browser = browser;
-  }
-}
-
-/**
- * 每个点位拉 5 - 10 个分页
- */
-export const scrollPage = (data: ScrollOpt) => {
-  // 每次滚动刷新预留 2 - 5 秒的时间
-  setTimeout(() => {}, data.pageNum * 2 * 1000);
-  window.scrollTo(0, document.body.scrollHeight);
-};
+const logger = debug('WRAP')
 
 /**
  * 扫描器（访问页面、设置定位、获取页面内容）
  */
-export class Wrapper {
-  private browser?: Browser;
+export class Wrapper extends EventEmitter {
+  private browser?: Browser
+
+  constructor(props: any) {
+    super(props)
+  }
 
   /** 启动浏览器 */
   public async launch() {
-    let browser = await puppeteer.launch();
-    this.browser = browser;
+    let browser = await puppeteer.launch()
+    this.browser = browser
   }
 
   /**
    * 账号登录
    */
   public async sign(): Promise<Protocol.Network.Cookie[]> {
-    const page = await this.browser!.newPage();
-    return page.cookies();
+    const page = await this.browser!.newPage()
+    return page.cookies()
   }
 
   /**
    * 访问页面并获取页面内容
    */
   public async parser(opt: {
-    lat: string | number;
-    lng: string | number;
-    address?: string;
+    lat: string | number
+    lng: string | number
+    address?: string
   }) {
-    const page = await this.browser!.newPage();
-    await page.setViewport({ width: 390, height: 844 * 2 });
+    const page = await this.browser!.newPage()
+    await page.setViewport({ width: 390, height: 844 * 2 })
 
     // window handle
-    const windowHandle = await page.evaluateHandle(() => window);
+    const windowHandle = await page.evaluateHandle(() => window)
 
-    page.setRequestInterception(true);
+    page.setRequestInterception(true)
     page.on('response', (response) => {
-      let url = response.url();
+      let url = response.url()
       if (/shopList/gi.test(url)) {
         response?.json?.()?.then((data) => {
-          logger('INFO:', data);
-        });
+          logger('INFO:', data)
+        })
       }
-    });
+    })
 
     // cookies
-    const cookies = await page.cookies();
+    const cookies = await page.cookies()
 
     // 访问页面
     await page.goto(`${uris.h5}?navigateType=19&index=3&resource_id=10638`, {
       waitUntil: 'networkidle2',
-    });
+    })
 
     // 修改定位（美团可以通过主动搜索点击，也可以通过修改 session 来篡改定位）
     const poi = {
@@ -121,10 +92,10 @@ export class Wrapper {
         poi: opt.address,
         address: opt.address,
       },
-    };
+    }
 
     const res = await page.evaluate((poi) => {
-      localStorage.setItem('param', JSON.stringify(poi));
+      localStorage.setItem('param', JSON.stringify(poi))
 
       // 选择排序（打开排序面板）
       //@ts-ignore
@@ -137,35 +108,35 @@ export class Wrapper {
         width: document.documentElement.clientWidth,
         height: document.documentElement.clientHeight,
         deviceScaleFactor: window.devicePixelRatio,
-      };
-    }, poi);
+      }
+    }, poi)
 
     // 设置 GEO 信息后，刷新页面（重新请求店铺信息）
-    await page.reload();
-    await sleep(10 * 1000);
+    await page.reload()
+    await sleep(10 * 1000)
 
     await page.screenshot({
       path: path.resolve(
         __dirname,
-        `../public/meituan_${opt.lat}_${opt.lng}.png`
+        `../public/meituan_${opt.lat}_${opt.lng}.png`,
       ),
-    }); // snapshot
+    }) // snapshot
 
     // 获取页面内容
-    const content = await page.content();
+    const content = await page.content()
 
     fs.writeFileSync(
       path.resolve(__dirname, `../public/meituan_${opt.lat}_${opt.lng}.html`),
       content,
       {
         encoding: 'utf-8',
-      }
-    );
-    return res;
+      },
+    )
+    return res
   }
 
   /** 销毁浏览器 */
   public destory() {
-    this.browser!.close?.();
+    this.browser!.close?.()
   }
 }

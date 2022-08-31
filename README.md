@@ -58,8 +58,7 @@ examine the history and state (see also: git help revisions)
    singletonTime      单次任务用时，default = 1s
    timeout            of timeout task
 
-   sort               0-8
-
+   sort               0-8 # 0:综合,1:
 ```
 
 ## 3 设计

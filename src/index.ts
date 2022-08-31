@@ -1,13 +1,22 @@
-import * as process from 'process';
+import process from 'node:process'
 
-/**
- * 通过地址查询附近店铺信息
- * @query {string} poi 地址（详细地址：市区 + 街道乡镇 + 详细地址）
- */
-export const poi = async () => {};
+import { monitoringTool } from './utils'
+import { MeishiEnum } from './types'
 
-/**
- * get poi list
- * 获取城市（区）的兴趣点（街道、商圈、单位、学校、景点）
- */
-export const pois = async () => {};
+process.on('uncaughtException', (err, origin) => {
+  //
+  monitoringTool(err)
+})
+
+process.on('uncaughtExceptionMonitor', (err, origin) => {
+  //
+})
+
+process.on('unhandledRejection', (reason, promise) => {
+  //
+  console.log('Undandled Rejection at:', promise, 'reason:', reason)
+})
+
+process.on('beforeExit', () => {
+  //
+})

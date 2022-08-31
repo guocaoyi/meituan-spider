@@ -27,11 +27,11 @@ const userAgents = [
   'Mozilla/5.0 (X11; CrOS x86_64 11021.34.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.3538.41 Safari/537.36',
   'Mozilla/5.0 (X11; CrOS x86_64 11021.34.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.3538.41 Safari/537.36',
   'Mozilla/5.0 (X11; CrOS x86_64 11021.34.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.3538.41 Safari/537.36',
-];
+]
 
 export default {
-  /** 随机 UA */
+  /** random user agent */
   get ua() {
-    return userAgents[parseInt(`${Math.random() * userAgents.length}`, 10)];
+    return userAgents[parseInt(`${Math.random() * userAgents.length}`, 10)]
   },
-};
+}

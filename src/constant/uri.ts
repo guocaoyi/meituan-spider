@@ -24,17 +24,17 @@ export const h5 = {
   /** 美团外卖店铺页 */
   shopHome: (shop: string) =>
     `https://h5.waimai.meituan.com/waimai/mindex/menu?mtShopId=${shop}`,
-};
+}
 
 // pc host
 export const pc = {
   /** 美团外卖首页 */
   home: 'https://meituan.com',
 
-  /** 美团登录 */
+  /** 美团登录（优先使用） */
   login: 'https://passport.meituan.com/account/unitivelogin',
 
-  /** 美团会员登录（优先使用） */
+  /** 美团会员登录 */
   userLogin: 'https://passport.meituan.com/useraccount/login',
 
   /** 美团选择城市页 */
@@ -45,6 +45,6 @@ export const pc = {
 
   /** 美团城市美食页 */
   meishi: (city: string) => `https://${city}.meituan.com/meishi`,
-};
+}
 
-export default { h5, pc };
+export default { h5, pc }
