@@ -1,9 +1,12 @@
-const fs = require('fs')
-const path = require('path')
-const readline = require('readline')
+const cheerio = require('cheerio')
+const cp = require('node:child_process')
+const fs = require('node:fs')
+const path = require('node:path')
+const process = require('node:process')
+const readline = require('node:readline')
 const debug = require('debug')
 const puppeteer = require('puppeteer')
-const cp = require('child_process')
+
 const ua = require('./ua')
 
 const rl = readline.createInterface({
@@ -11,8 +14,8 @@ const rl = readline.createInterface({
   output: process.stdout,
 })
 
-const tel = process.argv[2]
 const name = 'pc-pois'
+const tel = process.argv[2]
 let step = 0
 
 cp.execSync(`rm -rf ./snap/${name}*`)
@@ -26,7 +29,7 @@ const sleep = async (ms) =>
   })
 
 const question = () =>
-  new Promise((resolve, reject) => {
+  new Promise((resolve) => {
     rl.question('Which code your phone receipted?\n', (answer) => {
       resolve(answer)
       rl.close()
@@ -42,11 +45,15 @@ const question = () =>
 
   await page.setViewport({ width: 1280, height: 844 })
   await page.setUserAgent(ua())
+  page.setDefaultTimeout(30 * 1000)
+
+  page.on('error', (error) => {
+    console.error('error>', error)
+  })
 
   // 访问页面
   await page.goto('https://passport.meituan.com/account/unitivelogin', {
-    timeout: 3 * 1000,
-    waitUntil: ['networkidle2'],
+    waitUntil: 'networkidle2',
   })
 
   // window handle
@@ -77,7 +84,7 @@ const question = () =>
   await page.evaluate((code) => {
     if (!!code) {
       // 输入验证码
-      document.getElementById('login-verify-code').value = code
+      document!.getElementById('login-verify-code')!.nodeValue = code
 
       document
         .getElementsByClassName('form-field form-field--ops')[1]
@@ -85,15 +92,43 @@ const question = () =>
     }
   }, res)
 
-  await page.screenshot({
-    path: path.resolve(__dirname, `./snap/${name}-${step++}-submit.png`),
-  })
-
   await sleep(1 * 1000)
-
   await page.screenshot({
     path: path.resolve(__dirname, `./snap/${name}-${step++}-success.png`),
   })
 
+  await page.goto('https://nj.meituan.com/meishi/', {
+    waitUntil: ['domcontentloaded'],
+  })
+
+  await page.screenshot({
+    path: path.resolve(__dirname, `./snap/${name}-${step++}-pois.png`),
+  })
+
+  // 通过该方式，无法获取 window 上下文对象；改为通过 page content dom parse 获取
+  const htmlStr = await page.content()
+  fs.writeFileSync('./snap/test1.html', htmlStr, { encoding: 'utf8' })
+  const $ = cheerio.load(htmlStr)
+
+  if ($('script')[16].childNodes[0].data.includes('window._appState')) {
+    console.info('widnow find _appState')
+  }
+
+  const globalWindow: any = {}
+  eval('((window)=>{' + $('script')[16].childNodes[0].data + '})(globalWindow)')
+
+  console.info('area len is>>', globalWindow?._appState?.filters?.areas?.length)
+
+  const areas = globalWindow?._appState?.filters?.areas ?? []
+  fs.writeFileSync('./snap/an.json', JSON.stringify(areas, null, 2), {
+    encoding: 'utf8',
+  })
+
+  // acctoun extra
+  page.evaluate(() => {
+    document.getElementsByClassName('extra-entry')[0].click()
+  })
   browser.close()
+
+  process.exit(1)
 })()

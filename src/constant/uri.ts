@@ -3,6 +3,9 @@ export const h5 = {
   /** 首页 */
   home: 'https://i.meituan.com',
 
+  /** 会员登录 */
+  login: 'https://h5.waimai.meituan.com/login',
+
   /** 美团选择城市页 */
   cities: 'https://i.meituan.com/index/changecity',
 

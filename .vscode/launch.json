@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "PC POIS",
+      "runtimeExecutable": "/Users/yalda/.nvm/versions/node/v14.19.0/bin/node",
+      "program": "${workspaceFolder}/tests/03-pc-request.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "PC Parse",
       "runtimeExecutable": "/Users/yalda/.nvm/versions/node/v14.19.0/bin/node",
       "program": "${workspaceFolder}/tests/01-pc-parse.js"

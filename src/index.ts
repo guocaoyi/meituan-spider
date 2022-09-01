@@ -1,10 +1,16 @@
 import process from 'node:process'
+import args from 'args'
 
 import { monitoringTool } from './utils'
-import { MeishiEnum } from './types'
+
+args
+  .option(['port', 'p'], 'The port', 3000)
+  .option(['reload', 'r'], 'Enable')
+  .option(['serve', 's'], 'Enable')
+
+const flags = args.parse(process.argv)
 
 process.on('uncaughtException', (err, origin) => {
-  //
   monitoringTool(err)
 })
 
