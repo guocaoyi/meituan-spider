@@ -1,0 +1,22 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "PC POIS",
+      "runtimeExecutable": "/Users/yalda/.nvm/versions/node/v14.19.0/bin/node",
+      "program": "${workspaceFolder}/tests/03-pc-request.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "PC Parse",
+      "runtimeExecutable": "/Users/yalda/.nvm/versions/node/v14.19.0/bin/node",
+      "program": "${workspaceFolder}/tests/01-pc-parse.js"
+    }
+  ]
+}
