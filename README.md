@@ -39,7 +39,7 @@
 
 ```bash
 # clone
-git clone https://github.com/guocaoyi/meituan-reptile-study ./reptile-study
+git clone https://github.com/guocaoyi/meituan-spider ./reptile-study
 cd ./reptile-study
 
 # install & run
